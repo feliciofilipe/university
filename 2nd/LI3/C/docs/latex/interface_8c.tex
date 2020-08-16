@@ -1,0 +1,314 @@
+\hypertarget{interface_8c}{}\doxysection{/mnt/262729a1-\/51d5-\/4621-\/a6a2-\/365439ec76db/\+Universidade/2º Ano/2º Semestre/\+L\+I3/grupo39/grupo39/proj\+C/src/interface.c File Reference}
+\label{interface_8c}\index{/mnt/262729a1-\/51d5-\/4621-\/a6a2-\/365439ec76db/Universidade/2º Ano/2º Semestre/LI3/grupo39/grupo39/projC/src/interface.c@{/mnt/262729a1-\/51d5-\/4621-\/a6a2-\/365439ec76db/Universidade/2º Ano/2º Semestre/LI3/grupo39/grupo39/projC/src/interface.c}}
+{\ttfamily \#include \char`\"{}../include/interface.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}../include/branch.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../include/clients.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../libs/config.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../include/products.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../include/total\+Sales.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}../libs/product\+Info.\+h\char`\"{}}\newline
+Include dependency graph for interface.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{interface_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structsgv}{sgv}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}} \mbox{\hyperlink{interface_8c_a14c3840c38c574667ca887b40c5250bb}{init\+S\+GV}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the S\+GV structure. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}} \mbox{\hyperlink{interface_8c_ad9484f92eba40f9182932a5a3c318375}{load\+S\+G\+V\+From\+Files}} (\mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}} \mbox{\hyperlink{structsgv}{sgv}}, const char $\ast$clients\+File\+Path, const char $\ast$products\+File\+Path, const char $\ast$sales\+File\+Path)
+\begin{DoxyCompactList}\small\item\em Read the clients, products and sales file names, checking if the entries are valid and then process the information, loading it in it’s data structures. \end{DoxyCompactList}\item 
+Q2\+Output \mbox{\hyperlink{interface_8c_abd37f7bc59cfb53b59de73ef514befe6}{get\+Products\+Started\+By\+Letter}} (const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}} \mbox{\hyperlink{structsgv}{sgv}}, const char letter)
+\begin{DoxyCompactList}\small\item\em List all the products whose I\+Ds start by a user provided character. \end{DoxyCompactList}\item 
+Q3\+Output \mbox{\hyperlink{interface_8c_aea7ecfd62f3caf6e7ea3d22069306af4}{get\+Product\+Sales\+And\+Profit}} (const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}} \mbox{\hyperlink{structsgv}{sgv}}, const char $\ast$product\+ID, int month)
+\begin{DoxyCompactList}\small\item\em Given a product’s ID and a month, return the number of sales and the total value billed for that product. \end{DoxyCompactList}\item 
+Q4\+Output \mbox{\hyperlink{interface_8c_a5ad30209dab998a9428d6411c620898d}{get\+Products\+Never\+Bought}} (const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}} \mbox{\hyperlink{structsgv}{sgv}}, const int branch\+Id)
+\begin{DoxyCompactList}\small\item\em Return a list of products which were never bought, alphabetically ordered by their ID. Theuser can decide if he wants to check globally or by branch. \end{DoxyCompactList}\item 
+Q5\+Output \mbox{\hyperlink{interface_8c_a4832d45e7a97dd68c4acefa6e5badb78}{get\+Clients\+Of\+A\+L\+L\+Branches}} (const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}} \mbox{\hyperlink{structsgv}{sgv}})
+\begin{DoxyCompactList}\small\item\em Return a list of clients who bought in all branches, also alphabetically ordered by their ID. \end{DoxyCompactList}\item 
+Q6\+Output \mbox{\hyperlink{interface_8c_aa99e582cd2577294aa3d6c4dcf312951}{get\+Clients\+And\+Products\+Never\+Bought\+Count}} (const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}} \mbox{\hyperlink{structsgv}{sgv}})
+\begin{DoxyCompactList}\small\item\em Determine the number of clients who never bought anything, as well as the number of products which were never bought. \end{DoxyCompactList}\item 
+Q7\+Output \mbox{\hyperlink{interface_8c_a0f3a86d0a3b70b514098f8ca9235036b}{get\+Products\+Bought\+By\+Client}} (const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}} \mbox{\hyperlink{structsgv}{sgv}}, const char $\ast$client\+ID)
+\begin{DoxyCompactList}\small\item\em Given a client\textquotesingle{}s ID, create a table a table with the number of products bought by that client. The table must be divided by month and branch. \end{DoxyCompactList}\item 
+Q8\+Output \mbox{\hyperlink{interface_8c_a8bcadcd6302828c4e736074b7d295ca9}{get\+Sales\+And\+Profits}} (const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}} \mbox{\hyperlink{structsgv}{sgv}}, int min\+Month, int max\+Month)
+\begin{DoxyCompactList}\small\item\em Determine the number and value of the sales that happened between a defined month interval. \end{DoxyCompactList}\item 
+Q9\+Output \mbox{\hyperlink{interface_8c_ad168560b648cf5e5e7bccf39c45655ac}{get\+Product\+Buyers}} (const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}} \mbox{\hyperlink{structsgv}{sgv}}, const char $\ast$product\+ID, int \mbox{\hyperlink{structbranch}{branch}})
+\begin{DoxyCompactList}\small\item\em Given a product\textquotesingle{}s ID and a branch number, list the ID\textquotesingle{}s of the clients who bought it, distinguishing them by if the client bought it normally or bought it at a discount. \end{DoxyCompactList}\item 
+Q10\+Output \mbox{\hyperlink{interface_8c_a974aa3354dd0a59de64d6a93db431e9c}{get\+Client\+Favorite\+Products}} (const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}} \mbox{\hyperlink{structsgv}{sgv}}, const char $\ast$client\+ID, int month)
+\begin{DoxyCompactList}\small\item\em Given a client\textquotesingle{}s ID and a month, list the ID\textquotesingle{}s of the products he bought more units. The list must be ordered by the number of units bought, in descending order. \end{DoxyCompactList}\item 
+Q11\+Output \mbox{\hyperlink{interface_8c_a06537684ee1e46090c6bac109c5c611f}{get\+Top\+Selled\+Products}} (const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}} \mbox{\hyperlink{structsgv}{sgv}}, int limit)
+\begin{DoxyCompactList}\small\item\em List the N most sold products during the whole year. For each product, the number of sales and clients of that product in each branch must also be presented. \end{DoxyCompactList}\item 
+Q12\+Output \mbox{\hyperlink{interface_8c_aad3520c4e5b13eeb2c9317669459429b}{get\+Client\+Top\+Profit\+Products}} (const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}} \mbox{\hyperlink{structsgv}{sgv}}, const char $\ast$client\+ID, int limit)
+\begin{DoxyCompactList}\small\item\em Given a client\textquotesingle{}s ID, list the N products in which the client spent more money. \end{DoxyCompactList}\item 
+Q13\+Output \mbox{\hyperlink{interface_8c_a186cb38eb3a553f5d8bb4b033b0e08d8}{get\+Current\+Files\+Info}} (const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}} \mbox{\hyperlink{structsgv}{sgv}})
+\begin{DoxyCompactList}\small\item\em Show a summary of what happened in query 1. This summary must include the path of each file read, as well as the number of lines read and the number of lines which were valid. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{interface_8c_a7527694a42981c525dade1439705c706}{destroy\+S\+GV}} (\mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}} \mbox{\hyperlink{structsgv}{sgv}})
+\begin{DoxyCompactList}\small\item\em Frees the S\+GV structure. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{interface_8c_a7527694a42981c525dade1439705c706}\label{interface_8c_a7527694a42981c525dade1439705c706}} 
+\index{interface.c@{interface.c}!destroySGV@{destroySGV}}
+\index{destroySGV@{destroySGV}!interface.c@{interface.c}}
+\doxysubsubsection{\texorpdfstring{destroySGV()}{destroySGV()}}
+{\footnotesize\ttfamily void destroy\+S\+GV (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}}}]{sgv }\end{DoxyParamCaption})}
+
+
+
+Frees the S\+GV structure. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sgv} & the structure to be freed \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interface_8c_a974aa3354dd0a59de64d6a93db431e9c}\label{interface_8c_a974aa3354dd0a59de64d6a93db431e9c}} 
+\index{interface.c@{interface.c}!getClientFavoriteProducts@{getClientFavoriteProducts}}
+\index{getClientFavoriteProducts@{getClientFavoriteProducts}!interface.c@{interface.c}}
+\doxysubsubsection{\texorpdfstring{getClientFavoriteProducts()}{getClientFavoriteProducts()}}
+{\footnotesize\ttfamily Q10\+Output get\+Client\+Favorite\+Products (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}}}]{sgv,  }\item[{const char $\ast$}]{client\+ID,  }\item[{int}]{month }\end{DoxyParamCaption})}
+
+
+
+Given a client\textquotesingle{}s ID and a month, list the ID\textquotesingle{}s of the products he bought more units. The list must be ordered by the number of units bought, in descending order. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sgv} & the S\+GV structure \\
+\hline
+{\em client\+ID} & Id of the chosen client. \\
+\hline
+{\em month} & The month of the sales in which we want do determine the units bougtht \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interface_8c_aa99e582cd2577294aa3d6c4dcf312951}\label{interface_8c_aa99e582cd2577294aa3d6c4dcf312951}} 
+\index{interface.c@{interface.c}!getClientsAndProductsNeverBoughtCount@{getClientsAndProductsNeverBoughtCount}}
+\index{getClientsAndProductsNeverBoughtCount@{getClientsAndProductsNeverBoughtCount}!interface.c@{interface.c}}
+\doxysubsubsection{\texorpdfstring{getClientsAndProductsNeverBoughtCount()}{getClientsAndProductsNeverBoughtCount()}}
+{\footnotesize\ttfamily Q6\+Output get\+Clients\+And\+Products\+Never\+Bought\+Count (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}}}]{sgv }\end{DoxyParamCaption})}
+
+
+
+Determine the number of clients who never bought anything, as well as the number of products which were never bought. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sgv} & the S\+GV structure \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interface_8c_a4832d45e7a97dd68c4acefa6e5badb78}\label{interface_8c_a4832d45e7a97dd68c4acefa6e5badb78}} 
+\index{interface.c@{interface.c}!getClientsOfALLBranches@{getClientsOfALLBranches}}
+\index{getClientsOfALLBranches@{getClientsOfALLBranches}!interface.c@{interface.c}}
+\doxysubsubsection{\texorpdfstring{getClientsOfALLBranches()}{getClientsOfALLBranches()}}
+{\footnotesize\ttfamily Q5\+Output get\+Clients\+Of\+A\+L\+L\+Branches (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}}}]{sgv }\end{DoxyParamCaption})}
+
+
+
+Return a list of clients who bought in all branches, also alphabetically ordered by their ID. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sgv} & the S\+GV structure \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interface_8c_aad3520c4e5b13eeb2c9317669459429b}\label{interface_8c_aad3520c4e5b13eeb2c9317669459429b}} 
+\index{interface.c@{interface.c}!getClientTopProfitProducts@{getClientTopProfitProducts}}
+\index{getClientTopProfitProducts@{getClientTopProfitProducts}!interface.c@{interface.c}}
+\doxysubsubsection{\texorpdfstring{getClientTopProfitProducts()}{getClientTopProfitProducts()}}
+{\footnotesize\ttfamily Q12\+Output get\+Client\+Top\+Profit\+Products (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}}}]{sgv,  }\item[{const char $\ast$}]{client\+ID,  }\item[{int}]{limit }\end{DoxyParamCaption})}
+
+
+
+Given a client\textquotesingle{}s ID, list the N products in which the client spent more money. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sgv} & the S\+GV structure \\
+\hline
+{\em client\+ID} & Id of the chosen client. \\
+\hline
+{\em limit} & Max number of products to be shown. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interface_8c_a186cb38eb3a553f5d8bb4b033b0e08d8}\label{interface_8c_a186cb38eb3a553f5d8bb4b033b0e08d8}} 
+\index{interface.c@{interface.c}!getCurrentFilesInfo@{getCurrentFilesInfo}}
+\index{getCurrentFilesInfo@{getCurrentFilesInfo}!interface.c@{interface.c}}
+\doxysubsubsection{\texorpdfstring{getCurrentFilesInfo()}{getCurrentFilesInfo()}}
+{\footnotesize\ttfamily Q13\+Output get\+Current\+Files\+Info (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}}}]{sgv }\end{DoxyParamCaption})}
+
+
+
+Show a summary of what happened in query 1. This summary must include the path of each file read, as well as the number of lines read and the number of lines which were valid. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sgv} & the S\+GV structure \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interface_8c_ad168560b648cf5e5e7bccf39c45655ac}\label{interface_8c_ad168560b648cf5e5e7bccf39c45655ac}} 
+\index{interface.c@{interface.c}!getProductBuyers@{getProductBuyers}}
+\index{getProductBuyers@{getProductBuyers}!interface.c@{interface.c}}
+\doxysubsubsection{\texorpdfstring{getProductBuyers()}{getProductBuyers()}}
+{\footnotesize\ttfamily Q9\+Output get\+Product\+Buyers (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}}}]{sgv,  }\item[{const char $\ast$}]{product\+ID,  }\item[{int}]{branch }\end{DoxyParamCaption})}
+
+
+
+Given a product\textquotesingle{}s ID and a branch number, list the ID\textquotesingle{}s of the clients who bought it, distinguishing them by if the client bought it normally or bought it at a discount. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sgv} & the S\+GV structure \\
+\hline
+{\em product\+ID} & Id of the chosen product. \\
+\hline
+{\em branch} & Number identifying the chosen branch. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interface_8c_aea7ecfd62f3caf6e7ea3d22069306af4}\label{interface_8c_aea7ecfd62f3caf6e7ea3d22069306af4}} 
+\index{interface.c@{interface.c}!getProductSalesAndProfit@{getProductSalesAndProfit}}
+\index{getProductSalesAndProfit@{getProductSalesAndProfit}!interface.c@{interface.c}}
+\doxysubsubsection{\texorpdfstring{getProductSalesAndProfit()}{getProductSalesAndProfit()}}
+{\footnotesize\ttfamily Q3\+Output get\+Product\+Sales\+And\+Profit (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}}}]{sgv,  }\item[{const char $\ast$}]{product\+ID,  }\item[{int}]{month }\end{DoxyParamCaption})}
+
+
+
+Given a product’s ID and a month, return the number of sales and the total value billed for that product. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sgv} & the S\+GV structure \\
+\hline
+{\em product\+ID} & Id of the chosen product. \\
+\hline
+{\em month} & Chosen month. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interface_8c_a0f3a86d0a3b70b514098f8ca9235036b}\label{interface_8c_a0f3a86d0a3b70b514098f8ca9235036b}} 
+\index{interface.c@{interface.c}!getProductsBoughtByClient@{getProductsBoughtByClient}}
+\index{getProductsBoughtByClient@{getProductsBoughtByClient}!interface.c@{interface.c}}
+\doxysubsubsection{\texorpdfstring{getProductsBoughtByClient()}{getProductsBoughtByClient()}}
+{\footnotesize\ttfamily Q7\+Output get\+Products\+Bought\+By\+Client (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}}}]{sgv,  }\item[{const char $\ast$}]{client\+ID }\end{DoxyParamCaption})}
+
+
+
+Given a client\textquotesingle{}s ID, create a table a table with the number of products bought by that client. The table must be divided by month and branch. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sgv} & the S\+GV structure \\
+\hline
+{\em client\+ID} & Id of the chosen client. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interface_8c_a5ad30209dab998a9428d6411c620898d}\label{interface_8c_a5ad30209dab998a9428d6411c620898d}} 
+\index{interface.c@{interface.c}!getProductsNeverBought@{getProductsNeverBought}}
+\index{getProductsNeverBought@{getProductsNeverBought}!interface.c@{interface.c}}
+\doxysubsubsection{\texorpdfstring{getProductsNeverBought()}{getProductsNeverBought()}}
+{\footnotesize\ttfamily Q4\+Output get\+Products\+Never\+Bought (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}}}]{sgv,  }\item[{const int}]{branch\+ID }\end{DoxyParamCaption})}
+
+
+
+Return a list of products which were never bought, alphabetically ordered by their ID. Theuser can decide if he wants to check globally or by branch. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sgv} & the S\+GV structure \\
+\hline
+{\em branch\+ID} & Number identifying the chosen branch. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interface_8c_abd37f7bc59cfb53b59de73ef514befe6}\label{interface_8c_abd37f7bc59cfb53b59de73ef514befe6}} 
+\index{interface.c@{interface.c}!getProductsStartedByLetter@{getProductsStartedByLetter}}
+\index{getProductsStartedByLetter@{getProductsStartedByLetter}!interface.c@{interface.c}}
+\doxysubsubsection{\texorpdfstring{getProductsStartedByLetter()}{getProductsStartedByLetter()}}
+{\footnotesize\ttfamily Q2\+Output get\+Products\+Started\+By\+Letter (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}}}]{sgv,  }\item[{const char}]{letter }\end{DoxyParamCaption})}
+
+
+
+List all the products whose I\+Ds start by a user provided character. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sgv} & the S\+GV structure \\
+\hline
+{\em letter} & Character provided by the user. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interface_8c_a8bcadcd6302828c4e736074b7d295ca9}\label{interface_8c_a8bcadcd6302828c4e736074b7d295ca9}} 
+\index{interface.c@{interface.c}!getSalesAndProfits@{getSalesAndProfits}}
+\index{getSalesAndProfits@{getSalesAndProfits}!interface.c@{interface.c}}
+\doxysubsubsection{\texorpdfstring{getSalesAndProfits()}{getSalesAndProfits()}}
+{\footnotesize\ttfamily Q8\+Output get\+Sales\+And\+Profits (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}}}]{sgv,  }\item[{int}]{min\+Month,  }\item[{int}]{max\+Month }\end{DoxyParamCaption})}
+
+
+
+Determine the number and value of the sales that happened between a defined month interval. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sgv} & the S\+GV structure \\
+\hline
+{\em min\+Month} & First month of the specified timeframe. \\
+\hline
+{\em max\+Month} & Last month of the specified timeframe. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interface_8c_a06537684ee1e46090c6bac109c5c611f}\label{interface_8c_a06537684ee1e46090c6bac109c5c611f}} 
+\index{interface.c@{interface.c}!getTopSelledProducts@{getTopSelledProducts}}
+\index{getTopSelledProducts@{getTopSelledProducts}!interface.c@{interface.c}}
+\doxysubsubsection{\texorpdfstring{getTopSelledProducts()}{getTopSelledProducts()}}
+{\footnotesize\ttfamily Q11\+Output get\+Top\+Selled\+Products (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}}}]{sgv,  }\item[{int}]{limit }\end{DoxyParamCaption})}
+
+
+
+List the N most sold products during the whole year. For each product, the number of sales and clients of that product in each branch must also be presented. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sgv} & the S\+GV structure \\
+\hline
+{\em limit} & Max number of products to be shown. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{interface_8c_a14c3840c38c574667ca887b40c5250bb}\label{interface_8c_a14c3840c38c574667ca887b40c5250bb}} 
+\index{interface.c@{interface.c}!initSGV@{initSGV}}
+\index{initSGV@{initSGV}!interface.c@{interface.c}}
+\doxysubsubsection{\texorpdfstring{initSGV()}{initSGV()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}} init\+S\+GV (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initializes the S\+GV structure. 
+
+\mbox{\Hypertarget{interface_8c_ad9484f92eba40f9182932a5a3c318375}\label{interface_8c_ad9484f92eba40f9182932a5a3c318375}} 
+\index{interface.c@{interface.c}!loadSGVFromFiles@{loadSGVFromFiles}}
+\index{loadSGVFromFiles@{loadSGVFromFiles}!interface.c@{interface.c}}
+\doxysubsubsection{\texorpdfstring{loadSGVFromFiles()}{loadSGVFromFiles()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}} load\+S\+G\+V\+From\+Files (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{interface_8h_a22f90d0d3126acbfb367c7d5dedbd6b7}{S\+GV}}}]{sgv,  }\item[{const char $\ast$}]{clients\+File\+Path,  }\item[{const char $\ast$}]{products\+File\+Path,  }\item[{const char $\ast$}]{sales\+File\+Path }\end{DoxyParamCaption})}
+
+
+
+Read the clients, products and sales file names, checking if the entries are valid and then process the information, loading it in it’s data structures. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sgv} & the S\+GV structure \\
+\hline
+{\em clients\+File\+Path} & Path to the clients file. \\
+\hline
+{\em products\+File\+Path} & Path to the products file. \\
+\hline
+{\em sales\+File\+Path} & Path to the sales file. \\
+\hline
+\end{DoxyParams}

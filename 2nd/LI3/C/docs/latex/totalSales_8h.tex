@@ -1,0 +1,159 @@
+\hypertarget{totalSales_8h}{}\doxysection{/mnt/262729a1-\/51d5-\/4621-\/a6a2-\/365439ec76db/\+Universidade/2º Ano/2º Semestre/\+L\+I3/grupo39/grupo39/proj\+C/include/total\+Sales.h File Reference}
+\label{totalSales_8h}\index{/mnt/262729a1-\/51d5-\/4621-\/a6a2-\/365439ec76db/Universidade/2º Ano/2º Semestre/LI3/grupo39/grupo39/projC/include/totalSales.h@{/mnt/262729a1-\/51d5-\/4621-\/a6a2-\/365439ec76db/Universidade/2º Ano/2º Semestre/LI3/grupo39/grupo39/projC/include/totalSales.h}}
+{\ttfamily \#include $<$glib.\+h$>$}\newline
+Include dependency graph for total\+Sales.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=249pt]{totalSales_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{totalSales_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{structtotalSales}{total\+Sales}} $\ast$ \mbox{\hyperlink{totalSales_8h_aa7285d2bb788a5c90a0934157f7663e8}{Total\+Sales}}
+\begin{DoxyCompactList}\small\item\em Structure responsible for storing the sales record from each product. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{totalSales_8h_aa7285d2bb788a5c90a0934157f7663e8}{Total\+Sales}} \mbox{\hyperlink{totalSales_8h_ae50708867e91029c3a7c261e12c41d56}{init\+Total\+Sales}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the \mbox{\hyperlink{structtotalSales}{total\+Sales}} structure. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{totalSales_8h_a87a00ca2b52487885e6874b8a2694307}{update\+Sales}} (\mbox{\hyperlink{totalSales_8h_aa7285d2bb788a5c90a0934157f7663e8}{Total\+Sales}} \mbox{\hyperlink{structtotalSales}{total\+Sales}}, const char $\ast$product\+ID, float price, int units, char type, int month, int \mbox{\hyperlink{structbranch}{branch}})
+\begin{DoxyCompactList}\small\item\em Updates the sales ledger of a given product with the new sale. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{totalSales_8h_a99507e2b45eaa75625cdab14d6cdfce0}{get\+Global\+Sales\+Info\+Interval}} (const \mbox{\hyperlink{totalSales_8h_aa7285d2bb788a5c90a0934157f7663e8}{Total\+Sales}} \mbox{\hyperlink{structtotalSales}{total\+Sales}}, int min\+Month, int max\+Month, int $\ast$num\+Sales\+Ptr, double $\ast$value\+Sales\+Ptr)
+\begin{DoxyCompactList}\small\item\em Returns the global quantity and value of sales for each month, within a specified range. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{totalSales_8h_ae720153642137168b127b4b43d307b50}{get\+Product\+Sales\+And\+Profit\+Total\+Sales}} (const \mbox{\hyperlink{totalSales_8h_aa7285d2bb788a5c90a0934157f7663e8}{Total\+Sales}} \mbox{\hyperlink{structtotalSales}{total\+Sales}}, const char $\ast$product\+ID, int month, int $\ast$num\+Sales\+Array, float $\ast$value\+Sales\+Array)
+\begin{DoxyCompactList}\small\item\em Returns the quantity and value of sales for a specific month and product. \end{DoxyCompactList}\item 
+G\+Ptr\+Array $\ast$ \mbox{\hyperlink{totalSales_8h_a6315a9986e6f7caa0506cec40e7dfcf9}{get\+All\+Products\+Sales\+Info}} (const \mbox{\hyperlink{totalSales_8h_aa7285d2bb788a5c90a0934157f7663e8}{Total\+Sales}} \mbox{\hyperlink{structtotalSales}{total\+Sales}}, int $\ast$length)
+\begin{DoxyCompactList}\small\item\em Returns a sorted G\+Ptr\+Array array of \mbox{\hyperlink{structproductInfo}{product\+Info}} structs with only the id and units\+Sold fields filled in. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{totalSales_8h_a56904c422bf86c4ba34bcb3da456cbbb}{free\+Total\+Sales}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{totalSales_8h_aa7285d2bb788a5c90a0934157f7663e8}\label{totalSales_8h_aa7285d2bb788a5c90a0934157f7663e8}} 
+\index{totalSales.h@{totalSales.h}!TotalSales@{TotalSales}}
+\index{TotalSales@{TotalSales}!totalSales.h@{totalSales.h}}
+\doxysubsubsection{\texorpdfstring{TotalSales}{TotalSales}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structtotalSales}{total\+Sales}}$\ast$ \mbox{\hyperlink{totalSales_8h_aa7285d2bb788a5c90a0934157f7663e8}{Total\+Sales}}}
+
+
+
+Structure responsible for storing the sales record from each product. 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{totalSales_8h_a56904c422bf86c4ba34bcb3da456cbbb}\label{totalSales_8h_a56904c422bf86c4ba34bcb3da456cbbb}} 
+\index{totalSales.h@{totalSales.h}!freeTotalSales@{freeTotalSales}}
+\index{freeTotalSales@{freeTotalSales}!totalSales.h@{totalSales.h}}
+\doxysubsubsection{\texorpdfstring{freeTotalSales()}{freeTotalSales()}}
+{\footnotesize\ttfamily void free\+Total\+Sales (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{totalSales_8h_a6315a9986e6f7caa0506cec40e7dfcf9}\label{totalSales_8h_a6315a9986e6f7caa0506cec40e7dfcf9}} 
+\index{totalSales.h@{totalSales.h}!getAllProductsSalesInfo@{getAllProductsSalesInfo}}
+\index{getAllProductsSalesInfo@{getAllProductsSalesInfo}!totalSales.h@{totalSales.h}}
+\doxysubsubsection{\texorpdfstring{getAllProductsSalesInfo()}{getAllProductsSalesInfo()}}
+{\footnotesize\ttfamily G\+Ptr\+Array$\ast$ get\+All\+Products\+Sales\+Info (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{totalSales_8h_aa7285d2bb788a5c90a0934157f7663e8}{Total\+Sales}}}]{total\+Sales,  }\item[{int $\ast$}]{length }\end{DoxyParamCaption})}
+
+
+
+Returns a sorted G\+Ptr\+Array array of \mbox{\hyperlink{structproductInfo}{product\+Info}} structs with only the id and units\+Sold fields filled in. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{structtotalSales}{total\+Sales}}} & Structure containing the Sales structures organized int an hash table. \\
+\hline
+{\em length} & Pointer to an integer to be updated with the length of the returning array. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{totalSales_8h_a99507e2b45eaa75625cdab14d6cdfce0}\label{totalSales_8h_a99507e2b45eaa75625cdab14d6cdfce0}} 
+\index{totalSales.h@{totalSales.h}!getGlobalSalesInfoInterval@{getGlobalSalesInfoInterval}}
+\index{getGlobalSalesInfoInterval@{getGlobalSalesInfoInterval}!totalSales.h@{totalSales.h}}
+\doxysubsubsection{\texorpdfstring{getGlobalSalesInfoInterval()}{getGlobalSalesInfoInterval()}}
+{\footnotesize\ttfamily void get\+Global\+Sales\+Info\+Interval (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{totalSales_8h_aa7285d2bb788a5c90a0934157f7663e8}{Total\+Sales}}}]{total\+Sales,  }\item[{int}]{min\+Month,  }\item[{int}]{max\+Month,  }\item[{int $\ast$}]{num\+Sales\+Ptr,  }\item[{double $\ast$}]{value\+Sales\+Ptr }\end{DoxyParamCaption})}
+
+
+
+Returns the global quantity and value of sales for each month, within a specified range. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{structtotalSales}{total\+Sales}}} & Structure containing the Sales structures organized int an hash table. \\
+\hline
+{\em min\+Month} & First month. \\
+\hline
+{\em max\+Month} & Last month. \\
+\hline
+{\em num\+Sales\+Ptr} & 12-\/element array used to return the quantity of sales. \\
+\hline
+{\em value\+Sales\+Ptr} & 12-\/element array used to return the value of sales. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{totalSales_8h_ae720153642137168b127b4b43d307b50}\label{totalSales_8h_ae720153642137168b127b4b43d307b50}} 
+\index{totalSales.h@{totalSales.h}!getProductSalesAndProfitTotalSales@{getProductSalesAndProfitTotalSales}}
+\index{getProductSalesAndProfitTotalSales@{getProductSalesAndProfitTotalSales}!totalSales.h@{totalSales.h}}
+\doxysubsubsection{\texorpdfstring{getProductSalesAndProfitTotalSales()}{getProductSalesAndProfitTotalSales()}}
+{\footnotesize\ttfamily void get\+Product\+Sales\+And\+Profit\+Total\+Sales (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{totalSales_8h_aa7285d2bb788a5c90a0934157f7663e8}{Total\+Sales}}}]{total\+Sales,  }\item[{const char $\ast$}]{product\+ID,  }\item[{int}]{month,  }\item[{int $\ast$}]{num\+Sales\+Array,  }\item[{float $\ast$}]{value\+Sales\+Array }\end{DoxyParamCaption})}
+
+
+
+Returns the quantity and value of sales for a specific month and product. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{structtotalSales}{total\+Sales}}} & Structure containing the Sales structures organized int an hash table. \\
+\hline
+{\em product\+ID} & ID of the product. \\
+\hline
+{\em month} & Month to be searched. \\
+\hline
+{\em num\+Sales\+Array} & 12-\/element array used to return the quantity of sales. \\
+\hline
+{\em value\+Sales\+Array} & 12-\/element array used to return the value of sales. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{totalSales_8h_ae50708867e91029c3a7c261e12c41d56}\label{totalSales_8h_ae50708867e91029c3a7c261e12c41d56}} 
+\index{totalSales.h@{totalSales.h}!initTotalSales@{initTotalSales}}
+\index{initTotalSales@{initTotalSales}!totalSales.h@{totalSales.h}}
+\doxysubsubsection{\texorpdfstring{initTotalSales()}{initTotalSales()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{totalSales_8h_aa7285d2bb788a5c90a0934157f7663e8}{Total\+Sales}} init\+Total\+Sales (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initializes the \mbox{\hyperlink{structtotalSales}{total\+Sales}} structure. 
+
+\mbox{\Hypertarget{totalSales_8h_a87a00ca2b52487885e6874b8a2694307}\label{totalSales_8h_a87a00ca2b52487885e6874b8a2694307}} 
+\index{totalSales.h@{totalSales.h}!updateSales@{updateSales}}
+\index{updateSales@{updateSales}!totalSales.h@{totalSales.h}}
+\doxysubsubsection{\texorpdfstring{updateSales()}{updateSales()}}
+{\footnotesize\ttfamily void update\+Sales (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{totalSales_8h_aa7285d2bb788a5c90a0934157f7663e8}{Total\+Sales}}}]{total\+Sales,  }\item[{const char $\ast$}]{product\+ID,  }\item[{float}]{price,  }\item[{int}]{units,  }\item[{char}]{type,  }\item[{int}]{month,  }\item[{int}]{branch }\end{DoxyParamCaption})}
+
+
+
+Updates the sales ledger of a given product with the new sale. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em \mbox{\hyperlink{structtotalSales}{total\+Sales}}} & Structure containing the Sales structures organized int an hash table. \\
+\hline
+{\em product\+ID} & ID of the product which was bought \\
+\hline
+{\em price} & Price of an unit of the product \\
+\hline
+{\em units} & Number of units bought \\
+\hline
+{\em type} & Char indicating the type of sale \\
+\hline
+{\em month} & Month when the product was bought \\
+\hline
+{\em branch} & Integer indicating in which branch the product was bought \\
+\hline
+\end{DoxyParams}

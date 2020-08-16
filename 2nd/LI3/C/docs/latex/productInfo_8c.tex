@@ -1,0 +1,88 @@
+\hypertarget{productInfo_8c}{}\doxysection{/mnt/262729a1-\/51d5-\/4621-\/a6a2-\/365439ec76db/\+Universidade/2º Ano/2º Semestre/\+L\+I3/grupo39/grupo39/proj\+C/src/product\+Info.c File Reference}
+\label{productInfo_8c}\index{/mnt/262729a1-\/51d5-\/4621-\/a6a2-\/365439ec76db/Universidade/2º Ano/2º Semestre/LI3/grupo39/grupo39/projC/src/productInfo.c@{/mnt/262729a1-\/51d5-\/4621-\/a6a2-\/365439ec76db/Universidade/2º Ano/2º Semestre/LI3/grupo39/grupo39/projC/src/productInfo.c}}
+{\ttfamily \#include \char`\"{}../libs/product\+Info.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}../libs/config.\+h\char`\"{}}\newline
+Include dependency graph for product\+Info.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{productInfo_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structproductInfo}{product\+Info}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+Product\+Info \mbox{\hyperlink{productInfo_8c_a6a6037743c413578a6b5d9cf8433d8f8}{init\+Product\+Info}} (char $\ast$product\+ID)
+\item 
+void \mbox{\hyperlink{productInfo_8c_a6663654088cf2580716c6cced4ba5e75}{set\+Product\+Info\+Units\+Sold}} (Product\+Info p, int \mbox{\hyperlink{structbranch}{branch}}, int units)
+\item 
+void \mbox{\hyperlink{productInfo_8c_af56ffafbee5e40164d39972d168d7985}{set\+Product\+Info\+Number\+Of\+Clients}} (Product\+Info p, int \mbox{\hyperlink{structbranch}{branch}}, int num\+Clients)
+\item 
+char $\ast$ \mbox{\hyperlink{productInfo_8c_a70ba658a84ee085c5f8de69914d30d3e}{get\+Product\+Info\+Product\+Id}} (const Product\+Info p)
+\item 
+int \mbox{\hyperlink{productInfo_8c_a7ab89d177ce8bc799fcbd0b1eeba52dc}{get\+Product\+Info\+Units\+Sold}} (const Product\+Info p, int \mbox{\hyperlink{structbranch}{branch}})
+\item 
+int \mbox{\hyperlink{productInfo_8c_ab3babf682d1c565e1b9b7072aa9a7d01}{get\+Product\+Info\+Number\+Of\+Clients}} (const Product\+Info p, int \mbox{\hyperlink{structbranch}{branch}})
+\item 
+Product\+Info \mbox{\hyperlink{productInfo_8c_ae14a26a22a0eb553948bca0f197bd20a}{product\+Info\+Clone}} (const Product\+Info p)
+\item 
+void \mbox{\hyperlink{productInfo_8c_adabdf40d1636bde41893742d8f1c67f2}{free\+Product\+Info}} (void $\ast$p)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{productInfo_8c_adabdf40d1636bde41893742d8f1c67f2}\label{productInfo_8c_adabdf40d1636bde41893742d8f1c67f2}} 
+\index{productInfo.c@{productInfo.c}!freeProductInfo@{freeProductInfo}}
+\index{freeProductInfo@{freeProductInfo}!productInfo.c@{productInfo.c}}
+\doxysubsubsection{\texorpdfstring{freeProductInfo()}{freeProductInfo()}}
+{\footnotesize\ttfamily void free\+Product\+Info (\begin{DoxyParamCaption}\item[{void $\ast$}]{p }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{productInfo_8c_ab3babf682d1c565e1b9b7072aa9a7d01}\label{productInfo_8c_ab3babf682d1c565e1b9b7072aa9a7d01}} 
+\index{productInfo.c@{productInfo.c}!getProductInfoNumberOfClients@{getProductInfoNumberOfClients}}
+\index{getProductInfoNumberOfClients@{getProductInfoNumberOfClients}!productInfo.c@{productInfo.c}}
+\doxysubsubsection{\texorpdfstring{getProductInfoNumberOfClients()}{getProductInfoNumberOfClients()}}
+{\footnotesize\ttfamily int get\+Product\+Info\+Number\+Of\+Clients (\begin{DoxyParamCaption}\item[{const Product\+Info}]{p,  }\item[{int}]{branch }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{productInfo_8c_a70ba658a84ee085c5f8de69914d30d3e}\label{productInfo_8c_a70ba658a84ee085c5f8de69914d30d3e}} 
+\index{productInfo.c@{productInfo.c}!getProductInfoProductId@{getProductInfoProductId}}
+\index{getProductInfoProductId@{getProductInfoProductId}!productInfo.c@{productInfo.c}}
+\doxysubsubsection{\texorpdfstring{getProductInfoProductId()}{getProductInfoProductId()}}
+{\footnotesize\ttfamily char$\ast$ get\+Product\+Info\+Product\+Id (\begin{DoxyParamCaption}\item[{const Product\+Info}]{p }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{productInfo_8c_a7ab89d177ce8bc799fcbd0b1eeba52dc}\label{productInfo_8c_a7ab89d177ce8bc799fcbd0b1eeba52dc}} 
+\index{productInfo.c@{productInfo.c}!getProductInfoUnitsSold@{getProductInfoUnitsSold}}
+\index{getProductInfoUnitsSold@{getProductInfoUnitsSold}!productInfo.c@{productInfo.c}}
+\doxysubsubsection{\texorpdfstring{getProductInfoUnitsSold()}{getProductInfoUnitsSold()}}
+{\footnotesize\ttfamily int get\+Product\+Info\+Units\+Sold (\begin{DoxyParamCaption}\item[{const Product\+Info}]{p,  }\item[{int}]{branch }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{productInfo_8c_a6a6037743c413578a6b5d9cf8433d8f8}\label{productInfo_8c_a6a6037743c413578a6b5d9cf8433d8f8}} 
+\index{productInfo.c@{productInfo.c}!initProductInfo@{initProductInfo}}
+\index{initProductInfo@{initProductInfo}!productInfo.c@{productInfo.c}}
+\doxysubsubsection{\texorpdfstring{initProductInfo()}{initProductInfo()}}
+{\footnotesize\ttfamily Product\+Info init\+Product\+Info (\begin{DoxyParamCaption}\item[{char $\ast$}]{product\+ID }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{productInfo_8c_ae14a26a22a0eb553948bca0f197bd20a}\label{productInfo_8c_ae14a26a22a0eb553948bca0f197bd20a}} 
+\index{productInfo.c@{productInfo.c}!productInfoClone@{productInfoClone}}
+\index{productInfoClone@{productInfoClone}!productInfo.c@{productInfo.c}}
+\doxysubsubsection{\texorpdfstring{productInfoClone()}{productInfoClone()}}
+{\footnotesize\ttfamily Product\+Info product\+Info\+Clone (\begin{DoxyParamCaption}\item[{const Product\+Info}]{p }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{productInfo_8c_af56ffafbee5e40164d39972d168d7985}\label{productInfo_8c_af56ffafbee5e40164d39972d168d7985}} 
+\index{productInfo.c@{productInfo.c}!setProductInfoNumberOfClients@{setProductInfoNumberOfClients}}
+\index{setProductInfoNumberOfClients@{setProductInfoNumberOfClients}!productInfo.c@{productInfo.c}}
+\doxysubsubsection{\texorpdfstring{setProductInfoNumberOfClients()}{setProductInfoNumberOfClients()}}
+{\footnotesize\ttfamily void set\+Product\+Info\+Number\+Of\+Clients (\begin{DoxyParamCaption}\item[{Product\+Info}]{p,  }\item[{int}]{branch,  }\item[{int}]{num\+Clients }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{productInfo_8c_a6663654088cf2580716c6cced4ba5e75}\label{productInfo_8c_a6663654088cf2580716c6cced4ba5e75}} 
+\index{productInfo.c@{productInfo.c}!setProductInfoUnitsSold@{setProductInfoUnitsSold}}
+\index{setProductInfoUnitsSold@{setProductInfoUnitsSold}!productInfo.c@{productInfo.c}}
+\doxysubsubsection{\texorpdfstring{setProductInfoUnitsSold()}{setProductInfoUnitsSold()}}
+{\footnotesize\ttfamily void set\+Product\+Info\+Units\+Sold (\begin{DoxyParamCaption}\item[{Product\+Info}]{p,  }\item[{int}]{branch,  }\item[{int}]{units }\end{DoxyParamCaption})}
+

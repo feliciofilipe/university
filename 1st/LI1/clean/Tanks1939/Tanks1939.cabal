@@ -1,0 +1,83 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 06ab80a91d5bbdd67c56857bb26e5487878d72693b2e42607e9cd818c7fceca7
+
+name:           Tanks1939
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/Tanks1939#readme>
+homepage:       https://github.com/githubuser/Tanks1939#readme
+bug-reports:    https://github.com/githubuser/Tanks1939/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2020 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/FilipeFelicio/LI1/Tanks1939
+
+library
+  exposed-modules:
+      Battlefields
+      BTree
+      Cp
+      Direction
+      Double
+      Editor
+      Hextuple
+      List
+      Main
+      Map
+      Matrix
+      Nat
+      Pentuple
+      Player
+      Shot
+      State
+      Tetromino
+      Triple
+      View
+      Zombie
+  other-modules:
+      Paths_Tanks1939
+  hs-source-dirs:
+      src
+  build-depends:
+      gloss
+    , gloss-juicy
+    , base >=4.7 && <5
+  default-language: Haskell2010
+
+executable Tanks1939-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_Tanks1939
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      Tanks1939
+    , base >=4.7 && <5
+  default-language: Haskell2010
+
+test-suite Tanks1939-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_Tanks1939
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      Tanks1939
+    , base >=4.7 && <5
+  default-language: Haskell2010
