@@ -34,10 +34,10 @@ This repository contains all the projects I developed during my degree.
     done twice in C and JAVA.
   <p>(18/20) [Object Oriented Programming](/2nd/POO):
     This project is a Command Line Application for delivery system build in the JAVA
-    programming language.
+    programming language.<\p>
   <p>(19.4/20) [Program Calculation](/2nd/CP):
     This project follows program design by calculation methods with literate
-    programming principles using Haskell and `lhs2TeX`.
+    programming principles using Haskell and `lhs2TeX`. <\p>
 
 
 ## :handshake: Contributors
