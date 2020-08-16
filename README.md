@@ -16,26 +16,26 @@ This repository contains all the projects I developed during my degree.
 
 - ##### 1st semester
 
-  - [Software Labs I](/1st/1/Laboratórios%20de%20Informática%20I/Project):
+  - [Software Labs I](/1st/LI1/):
     This project consists in a remake of the game Tanks. It has been developed in the
     Haskell programming language.
 
 - ##### 2nd semester
 
-  - [Software Labs II](/1st/2/Laboratórios%20de%20Informática%20II/Project):
+  - [Software Labs II](/1st/LI2):
     This project is a board game build in C.
     
 ### **2nd year**
 
 - ##### 2nd semester
 
-  - [Software Labs III](/2nd/2/Laboratórios%20de%20Informática%20III/Project):
+  - [Software Labs III](/2nd/LI3):
     This project is a Sales Management System for Hypermarkets with branches
     done twice in C and JAVA.
-  - [Object Oriented Programming](/2nd/2/Programação%20Orientada%20aos%20Objetos/Project):
+  - [Object Oriented Programming](/2nd/POO):
     This project is a Command Line Application for delivery system build in the JAVA
     programming language.
-  - [Program Calculation](/2nd/2/Cálculo%20de%20Programas/Project):
+  - [Program Calculation](/2nd/CP):
     This project follows program design by calculation methods with literate
     programming principles using Haskell and `lhs2TeX`.
 
