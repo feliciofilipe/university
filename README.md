@@ -19,7 +19,7 @@ This repository contains all the projects I developed during my degree.
   - (18/20) [Software Labs I](/1st/LI1/):
     This project consists in a remake of the game Tanks. It has been developed in the
     Haskell programming language.
-    - Won the Best UI/UX award through public vote, inducted in to the class [Hall of Fame][hof] (2018/2019).
+    - ###### :trophy: Won the Best UI/UX award through public vote, inducted in to the class [Hall of Fame][hof] (2018/2019).
     
     [hof]: https://haslab.github.io/Teaching/LI1/
 
