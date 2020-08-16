@@ -67,11 +67,18 @@ mention the most decisive ones by alphabetical order.
 
 - [Eduardo Jorge][eduardo]
 - [Francisco Lira][lira]
-- [Nelson Estevão][nelson]
-
 
 [eduardo]: https://github.com/herulume
 [lira]: https://github.com/FranciscoLira
+
+## :pray: Special Thanks
+
+Also I would like to give an individual special shout out to this person for being a 
+huge role model, setting the example of great work ethic and organization (I have model this repository from him) 
+and by far the person from whom I have learned the most within the software engineering students community.
+
+- [Nelson Estevão][nelson]
+
 [nelson]: https://github.com/nelsonmestevao
 
 <div align="center">
