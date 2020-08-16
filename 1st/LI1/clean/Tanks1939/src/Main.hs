@@ -30,8 +30,8 @@ main = do
        let txs = [tx0,tx1,tx2,tx3,tx4]
        tank0 <- loadBMP $ tanks ++ "tank0.bmp"
        tank1 <- loadBMP $ tanks ++ "tank1.bmp"
-       tank2 <- loadBMP $ tanks ++ "tank2.bmp"
-       tank3 <- loadBMP $ tanks ++ "tank3.bmp"
+       tank2 <- loadBMP $ tanks ++ "tank4.bmp"
+       tank3 <- loadBMP $ tanks ++ "tank5.bmp"
        let tanks = [tank0,tank1,tank2,tank3]
        play dm
             black

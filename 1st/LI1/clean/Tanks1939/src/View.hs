@@ -41,8 +41,10 @@ width = (-512.5)
 
 -- (2) draw --------------------------------------------------------------------
 
+quarter = Scale 0.5 0.5
+
 draw view = picture          
-  where picture   = Pictures (players ++ m4p)
+  where picture   = Pictures (m4p ++ players)
         players   = ( map put1   -- [Picture]
                     . map swap   -- [(Player,Int)]
                     . zip [0..3] -- [(Int,Player)]
@@ -77,12 +79,12 @@ draw view = picture
                     . T.get0      -- Map
                     . outState    -- Triple
                     ) state       -- State
-        put0      = uncurry (uncurry Translate)      -- Picture
-                      . ((D.sum (width,height)       -- (Coordinate,Picture)
-                      . scalarMult 25                -- (Coordinate,Picture)
-                      . (float >< float)             -- (Coordinate,Picture)
-                      . swap)                        -- (Position,Picture)
-                      >< (Scale 0.5 0.5 . textures)) -- (Position,Picture)
+        put0      = uncurry (uncurry Translate) -- Picture
+                      . ((D.sum (width,height)  -- (Coordinate,Picture)
+                      . scalarMult 25           -- (Coordinate,Picture)
+                      . (float >< float)        -- (Coordinate,Picture)
+                      . swap)                   -- (Position,Picture)
+                      >< (quarter . textures))  -- (Position,Picture)
         textures  = uncurry texture  -- Picture
                     . curry swap     -- (Block,[Picture])
                     ((L.!!!) 0 pics) -- (Block,[Picture])
