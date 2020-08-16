@@ -48,8 +48,14 @@ This repository contains all the projects I developed during my degree.
 ## :handshake: Contributors
 
 - [Filipe Felício][filipe]
+- [Henrique Ribeiro][henrrique]
+- [João Correia][correia]
+- [Luís Araújo][luis]
 
 [filipe]: https://github.com/FilipeFelicio
+[henrique]: https://github.com/henriq350
+[correia]: https://github.com/jpcorreia99
+[luis]: https://github.com/LAraujo7
 
 ## :sparkles: Credits
 
@@ -57,11 +63,12 @@ In addition to all the help from contributors to each of the projects, many
 other people had a positive impact on my academic journey. This list tries to
 mention the most decisive ones by alphabetical order.
 
+- [Eduardo Jorge][eduardo]
 - [Francisco Lira][lira]
 - [Nelson Estevão][nelson]
 
 
-
+[eduardo]: https://github.com/herulume
 [lira]: https://github.com/FranciscoLira
 [nelson]: https://github.com/nelsonmestevao
 
