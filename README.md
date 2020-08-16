@@ -48,7 +48,7 @@ This repository contains all the projects I developed during my degree.
 ## :handshake: Contributors
 
 - [Filipe Felício][filipe]
-- [Henrique Ribeiro][henrrique]
+- [Henrique Ribeiro][henrique]
 - [João Correia][correia]
 - [Luís Araújo][luis]
 
