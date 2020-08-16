@@ -1,0 +1,11 @@
+src/*.o
+Dados Iniciais/Vendas_3M.txt
+Dados Iniciais/Vendas_5M.txt
+src/program
+src/SGVGDB
+
+../../.vscode/
+../.vscode/
+.vscode/
+src/.vscode/
+include/.vscode

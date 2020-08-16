@@ -1,0 +1,120 @@
+\hypertarget{product_8c}{}\doxysection{/mnt/262729a1-\/51d5-\/4621-\/a6a2-\/365439ec76db/\+Universidade/2º Ano/2º Semestre/\+L\+I3/grupo39/grupo39/proj\+C/src/product.c File Reference}
+\label{product_8c}\index{/mnt/262729a1-\/51d5-\/4621-\/a6a2-\/365439ec76db/Universidade/2º Ano/2º Semestre/LI3/grupo39/grupo39/projC/src/product.c@{/mnt/262729a1-\/51d5-\/4621-\/a6a2-\/365439ec76db/Universidade/2º Ano/2º Semestre/LI3/grupo39/grupo39/projC/src/product.c}}
+{\ttfamily \#include \char`\"{}../include/product.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$ctype.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+Include dependency graph for product.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{product_8c__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structproduct}{product}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{product_8h_a60148a4519d9dd89ced968ddd3d00889}{Product}} \mbox{\hyperlink{product_8c_ae58b5a9529a803dadea263850042fca0}{init\+Product}} (char $\ast$id)
+\begin{DoxyCompactList}\small\item\em Initializes the product structure. \end{DoxyCompactList}\item 
+char $\ast$ \mbox{\hyperlink{product_8c_a39c0c29729f8b6002a15be13df09267d}{get\+Product\+ID}} (const \mbox{\hyperlink{product_8h_a60148a4519d9dd89ced968ddd3d00889}{Product}} prod)
+\begin{DoxyCompactList}\small\item\em Returns the id of a product. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{product_8c_a91f395f78ea374870612b796fff18c47}{validate\+Product}} (const char $\ast$id)
+\begin{DoxyCompactList}\small\item\em Checks if the given ID is valid. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{product_8c_a3fbf16a1e31a77c3b004ac37b9a17ca1}{update\+Branches\+Bought\+Product}} (\mbox{\hyperlink{product_8h_a60148a4519d9dd89ced968ddd3d00889}{Product}} \mbox{\hyperlink{structproduct}{product}}, int \mbox{\hyperlink{structbranch}{branch}})
+\begin{DoxyCompactList}\small\item\em Updates a Product based on if it was bought in a specific branch. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{product_8c_a1a83a3898dc972994c998999ba3bd171}{product\+Wasnt\+Bought}} (const \mbox{\hyperlink{product_8h_a60148a4519d9dd89ced968ddd3d00889}{Product}} \mbox{\hyperlink{structproduct}{product}}, int \mbox{\hyperlink{structbranch}{branch}})
+\begin{DoxyCompactList}\small\item\em Verifies if a product was never bought. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{product_8c_afbd6426e7510645bf698de2eb3ddebe4}{free\+Product}} (void $\ast$p)
+\begin{DoxyCompactList}\small\item\em Frees a product. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{product_8c_afbd6426e7510645bf698de2eb3ddebe4}\label{product_8c_afbd6426e7510645bf698de2eb3ddebe4}} 
+\index{product.c@{product.c}!freeProduct@{freeProduct}}
+\index{freeProduct@{freeProduct}!product.c@{product.c}}
+\doxysubsubsection{\texorpdfstring{freeProduct()}{freeProduct()}}
+{\footnotesize\ttfamily void free\+Product (\begin{DoxyParamCaption}\item[{void $\ast$}]{p }\end{DoxyParamCaption})}
+
+
+
+Frees a product. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & Product to be freed \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{product_8c_a39c0c29729f8b6002a15be13df09267d}\label{product_8c_a39c0c29729f8b6002a15be13df09267d}} 
+\index{product.c@{product.c}!getProductID@{getProductID}}
+\index{getProductID@{getProductID}!product.c@{product.c}}
+\doxysubsubsection{\texorpdfstring{getProductID()}{getProductID()}}
+{\footnotesize\ttfamily char$\ast$ get\+Product\+ID (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{product_8h_a60148a4519d9dd89ced968ddd3d00889}{Product}}}]{prod }\end{DoxyParamCaption})}
+
+
+
+Returns the id of a product. 
+
+\mbox{\Hypertarget{product_8c_ae58b5a9529a803dadea263850042fca0}\label{product_8c_ae58b5a9529a803dadea263850042fca0}} 
+\index{product.c@{product.c}!initProduct@{initProduct}}
+\index{initProduct@{initProduct}!product.c@{product.c}}
+\doxysubsubsection{\texorpdfstring{initProduct()}{initProduct()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{product_8h_a60148a4519d9dd89ced968ddd3d00889}{Product}} init\+Product (\begin{DoxyParamCaption}\item[{char $\ast$}]{id }\end{DoxyParamCaption})}
+
+
+
+Initializes the product structure. 
+
+\mbox{\Hypertarget{product_8c_a1a83a3898dc972994c998999ba3bd171}\label{product_8c_a1a83a3898dc972994c998999ba3bd171}} 
+\index{product.c@{product.c}!productWasntBought@{productWasntBought}}
+\index{productWasntBought@{productWasntBought}!product.c@{product.c}}
+\doxysubsubsection{\texorpdfstring{productWasntBought()}{productWasntBought()}}
+{\footnotesize\ttfamily bool product\+Wasnt\+Bought (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{product_8h_a60148a4519d9dd89ced968ddd3d00889}{Product}}}]{product,  }\item[{int}]{branch }\end{DoxyParamCaption})}
+
+
+
+Verifies if a product was never bought. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em product} & Product to check \\
+\hline
+{\em branch} & Number that indentifies the branch. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{product_8c_a3fbf16a1e31a77c3b004ac37b9a17ca1}\label{product_8c_a3fbf16a1e31a77c3b004ac37b9a17ca1}} 
+\index{product.c@{product.c}!updateBranchesBoughtProduct@{updateBranchesBoughtProduct}}
+\index{updateBranchesBoughtProduct@{updateBranchesBoughtProduct}!product.c@{product.c}}
+\doxysubsubsection{\texorpdfstring{updateBranchesBoughtProduct()}{updateBranchesBoughtProduct()}}
+{\footnotesize\ttfamily void update\+Branches\+Bought\+Product (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{product_8h_a60148a4519d9dd89ced968ddd3d00889}{Product}}}]{product,  }\item[{int}]{branch }\end{DoxyParamCaption})}
+
+
+
+Updates a Product based on if it was bought in a specific branch. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em product} & Product to check \\
+\hline
+{\em branch} & Number that indentifies the branch. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{product_8c_a91f395f78ea374870612b796fff18c47}\label{product_8c_a91f395f78ea374870612b796fff18c47}} 
+\index{product.c@{product.c}!validateProduct@{validateProduct}}
+\index{validateProduct@{validateProduct}!product.c@{product.c}}
+\doxysubsubsection{\texorpdfstring{validateProduct()}{validateProduct()}}
+{\footnotesize\ttfamily bool validate\+Product (\begin{DoxyParamCaption}\item[{const char $\ast$}]{id }\end{DoxyParamCaption})}
+
+
+
+Checks if the given ID is valid. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & id to be ckecked \\
+\hline
+\end{DoxyParams}

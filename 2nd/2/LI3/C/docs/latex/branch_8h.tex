@@ -1,0 +1,204 @@
+\hypertarget{branch_8h}{}\doxysection{/mnt/262729a1-\/51d5-\/4621-\/a6a2-\/365439ec76db/\+Universidade/2º Ano/2º Semestre/\+L\+I3/grupo39/grupo39/proj\+C/include/branch.h File Reference}
+\label{branch_8h}\index{/mnt/262729a1-\/51d5-\/4621-\/a6a2-\/365439ec76db/Universidade/2º Ano/2º Semestre/LI3/grupo39/grupo39/projC/include/branch.h@{/mnt/262729a1-\/51d5-\/4621-\/a6a2-\/365439ec76db/Universidade/2º Ano/2º Semestre/LI3/grupo39/grupo39/projC/include/branch.h}}
+{\ttfamily \#include $<$glib.\+h$>$}\newline
+Include dependency graph for branch.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=249pt]{branch_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{branch_8h__dep__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \mbox{\hyperlink{structbranch}{branch}} $\ast$ \mbox{\hyperlink{branch_8h_af8c19b0912e34d02318367931d7181b2}{Branch}}
+\begin{DoxyCompactList}\small\item\em structure which holds information relating clients to the products they bought and products to the clients which bought them in a specific branch \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{branch_8h_af8c19b0912e34d02318367931d7181b2}{Branch}} \mbox{\hyperlink{branch_8h_ab78dddaa4a96b4011d6f415746225189}{init\+Branch}} ()
+\begin{DoxyCompactList}\small\item\em Instanciates the branch structure. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{branch_8h_a7539b7a7e5c9ae1d26a8659a6a244b21}{update\+Branch}} (\mbox{\hyperlink{branch_8h_af8c19b0912e34d02318367931d7181b2}{Branch}} \mbox{\hyperlink{structbranch}{branch}}, char $\ast$product\+ID, char $\ast$client\+ID, int month, int quantities, int type, float price)
+\begin{DoxyCompactList}\small\item\em Updates the values of a product and client record in the branch structure. \end{DoxyCompactList}\item 
+int $\ast$ \mbox{\hyperlink{branch_8h_acfd7f47125c4b766b64a6533c653f2bd}{get\+Client\+Quantities\+By\+Branch}} (const \mbox{\hyperlink{branch_8h_af8c19b0912e34d02318367931d7181b2}{Branch}} \mbox{\hyperlink{structbranch}{branch}}, const char $\ast$client\+ID)
+\begin{DoxyCompactList}\small\item\em Gets the quantity of products bought by a certain client for each month. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{branch_8h_a542a03b854ca7c9a74fd3e63c70b9d11}{get\+Clients\+That\+Bought\+Product\+By\+Branch}} (const \mbox{\hyperlink{branch_8h_af8c19b0912e34d02318367931d7181b2}{Branch}} \mbox{\hyperlink{structbranch}{branch}}, const char $\ast$product\+ID, G\+Ptr\+Array $\ast$$\ast$arrayN, G\+Ptr\+Array $\ast$$\ast$arrayP, int $\ast$totalN, int $\ast$totalP)
+\begin{DoxyCompactList}\small\item\em Gets the ids of clients that purchased the selected product, separating by sales of type N and P. \end{DoxyCompactList}\item 
+G\+Ptr\+Array $\ast$ \mbox{\hyperlink{branch_8h_ac8ee8a9183c9c3875753dab1533f6d47}{get\+Client\+Favorite\+Products\+Branches}} (const \mbox{\hyperlink{branch_8h_af8c19b0912e34d02318367931d7181b2}{Branch}} $\ast$branches, const char $\ast$client\+ID, int $\ast$total, const int month)
+\begin{DoxyCompactList}\small\item\em For a chosen client and month, gets the list of most purchased products by the client, by descending order. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{branch_8h_a6960d338d1ee95e3107e40f3a36da24b}{get\+Number\+Of\+C\+Lients\+Product}} (const \mbox{\hyperlink{branch_8h_af8c19b0912e34d02318367931d7181b2}{Branch}} \mbox{\hyperlink{structbranch}{branch}}, const char $\ast$product\+ID)
+\begin{DoxyCompactList}\small\item\em For a chosen product, gets the number of clients who bought it in a specific branch. \end{DoxyCompactList}\item 
+G\+Ptr\+Array $\ast$ \mbox{\hyperlink{branch_8h_a57ba1fb346fd3cba8d41bf76210eb708}{get\+Client\+Top\+Profit\+Products\+Branches}} (const \mbox{\hyperlink{branch_8h_af8c19b0912e34d02318367931d7181b2}{Branch}} $\ast$branches, const char $\ast$client\+ID, int $\ast$length, const int limit)
+\begin{DoxyCompactList}\small\item\em For a chosen client, gets the list of products the client spent the most on, by descending order. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{branch_8h_a76f24feceb55d5c231d858c6f02acc3b}{free\+Branch}} (\mbox{\hyperlink{branch_8h_af8c19b0912e34d02318367931d7181b2}{Branch}} \mbox{\hyperlink{structbranch}{branch}})
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Typedef Documentation}
+\mbox{\Hypertarget{branch_8h_af8c19b0912e34d02318367931d7181b2}\label{branch_8h_af8c19b0912e34d02318367931d7181b2}} 
+\index{branch.h@{branch.h}!Branch@{Branch}}
+\index{Branch@{Branch}!branch.h@{branch.h}}
+\doxysubsubsection{\texorpdfstring{Branch}{Branch}}
+{\footnotesize\ttfamily typedef struct \mbox{\hyperlink{structbranch}{branch}}$\ast$ \mbox{\hyperlink{branch_8h_af8c19b0912e34d02318367931d7181b2}{Branch}}}
+
+
+
+structure which holds information relating clients to the products they bought and products to the clients which bought them in a specific branch 
+
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{branch_8h_a76f24feceb55d5c231d858c6f02acc3b}\label{branch_8h_a76f24feceb55d5c231d858c6f02acc3b}} 
+\index{branch.h@{branch.h}!freeBranch@{freeBranch}}
+\index{freeBranch@{freeBranch}!branch.h@{branch.h}}
+\doxysubsubsection{\texorpdfstring{freeBranch()}{freeBranch()}}
+{\footnotesize\ttfamily void free\+Branch (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{branch_8h_af8c19b0912e34d02318367931d7181b2}{Branch}}}]{branch }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{branch_8h_ac8ee8a9183c9c3875753dab1533f6d47}\label{branch_8h_ac8ee8a9183c9c3875753dab1533f6d47}} 
+\index{branch.h@{branch.h}!getClientFavoriteProductsBranches@{getClientFavoriteProductsBranches}}
+\index{getClientFavoriteProductsBranches@{getClientFavoriteProductsBranches}!branch.h@{branch.h}}
+\doxysubsubsection{\texorpdfstring{getClientFavoriteProductsBranches()}{getClientFavoriteProductsBranches()}}
+{\footnotesize\ttfamily G\+Ptr\+Array$\ast$ get\+Client\+Favorite\+Products\+Branches (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{branch_8h_af8c19b0912e34d02318367931d7181b2}{Branch}} $\ast$}]{branches,  }\item[{const char $\ast$}]{client\+ID,  }\item[{int $\ast$}]{total,  }\item[{const int}]{month }\end{DoxyParamCaption})}
+
+
+
+For a chosen client and month, gets the list of most purchased products by the client, by descending order. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em branches} & array of branches \\
+\hline
+{\em client\+ID} & Id of the chosen client. \\
+\hline
+{\em total} & Pointer to an integer that must be updated with the length of returning array. \\
+\hline
+{\em month} & Month to be checked \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{branch_8h_acfd7f47125c4b766b64a6533c653f2bd}\label{branch_8h_acfd7f47125c4b766b64a6533c653f2bd}} 
+\index{branch.h@{branch.h}!getClientQuantitiesByBranch@{getClientQuantitiesByBranch}}
+\index{getClientQuantitiesByBranch@{getClientQuantitiesByBranch}!branch.h@{branch.h}}
+\doxysubsubsection{\texorpdfstring{getClientQuantitiesByBranch()}{getClientQuantitiesByBranch()}}
+{\footnotesize\ttfamily int$\ast$ get\+Client\+Quantities\+By\+Branch (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{branch_8h_af8c19b0912e34d02318367931d7181b2}{Branch}}}]{branch,  }\item[{const char $\ast$}]{client\+ID }\end{DoxyParamCaption})}
+
+
+
+Gets the quantity of products bought by a certain client for each month. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em branch} & Branch structure containing the record to be updated. \\
+\hline
+{\em client\+ID} & Id of the client to be searched. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Array with 12 elements corresponding to the quantity of products bought by the selected client for each month. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{branch_8h_a542a03b854ca7c9a74fd3e63c70b9d11}\label{branch_8h_a542a03b854ca7c9a74fd3e63c70b9d11}} 
+\index{branch.h@{branch.h}!getClientsThatBoughtProductByBranch@{getClientsThatBoughtProductByBranch}}
+\index{getClientsThatBoughtProductByBranch@{getClientsThatBoughtProductByBranch}!branch.h@{branch.h}}
+\doxysubsubsection{\texorpdfstring{getClientsThatBoughtProductByBranch()}{getClientsThatBoughtProductByBranch()}}
+{\footnotesize\ttfamily void get\+Clients\+That\+Bought\+Product\+By\+Branch (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{branch_8h_af8c19b0912e34d02318367931d7181b2}{Branch}}}]{branch,  }\item[{const char $\ast$}]{product\+ID,  }\item[{G\+Ptr\+Array $\ast$$\ast$}]{arrayN,  }\item[{G\+Ptr\+Array $\ast$$\ast$}]{arrayP,  }\item[{int $\ast$}]{totalN,  }\item[{int $\ast$}]{totalP }\end{DoxyParamCaption})}
+
+
+
+Gets the ids of clients that purchased the selected product, separating by sales of type N and P. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em branch} & Branch structure containing the record to be updated. \\
+\hline
+{\em product\+ID} & Id of the product to be searched. \\
+\hline
+{\em arrayN} & Array with client ids that bought product with type N. \\
+\hline
+{\em arrayP} & Array with client ids that bought product with type P. \\
+\hline
+{\em totalN} & Pointer to an integer to be updated with the length of \textquotesingle{}arrayN\textquotesingle{}. \\
+\hline
+{\em totalP} & Pointer to an integer to be updated with the length of \textquotesingle{}arrayP\textquotesingle{}. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{branch_8h_a57ba1fb346fd3cba8d41bf76210eb708}\label{branch_8h_a57ba1fb346fd3cba8d41bf76210eb708}} 
+\index{branch.h@{branch.h}!getClientTopProfitProductsBranches@{getClientTopProfitProductsBranches}}
+\index{getClientTopProfitProductsBranches@{getClientTopProfitProductsBranches}!branch.h@{branch.h}}
+\doxysubsubsection{\texorpdfstring{getClientTopProfitProductsBranches()}{getClientTopProfitProductsBranches()}}
+{\footnotesize\ttfamily G\+Ptr\+Array$\ast$ get\+Client\+Top\+Profit\+Products\+Branches (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{branch_8h_af8c19b0912e34d02318367931d7181b2}{Branch}} $\ast$}]{branches,  }\item[{const char $\ast$}]{client\+ID,  }\item[{int $\ast$}]{length,  }\item[{const int}]{limit }\end{DoxyParamCaption})}
+
+
+
+For a chosen client, gets the list of products the client spent the most on, by descending order. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em branches} & array of branches \\
+\hline
+{\em client\+ID} & Id of the chosen client. \\
+\hline
+{\em length} & Pointer to an integer that must be updated with the length of returning array. \\
+\hline
+{\em limit} & Limit of products to be presented. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{branch_8h_a6960d338d1ee95e3107e40f3a36da24b}\label{branch_8h_a6960d338d1ee95e3107e40f3a36da24b}} 
+\index{branch.h@{branch.h}!getNumberOfCLientsProduct@{getNumberOfCLientsProduct}}
+\index{getNumberOfCLientsProduct@{getNumberOfCLientsProduct}!branch.h@{branch.h}}
+\doxysubsubsection{\texorpdfstring{getNumberOfCLientsProduct()}{getNumberOfCLientsProduct()}}
+{\footnotesize\ttfamily int get\+Number\+Of\+C\+Lients\+Product (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{branch_8h_af8c19b0912e34d02318367931d7181b2}{Branch}}}]{branch,  }\item[{const char $\ast$}]{product\+ID }\end{DoxyParamCaption})}
+
+
+
+For a chosen product, gets the number of clients who bought it in a specific branch. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em branch} & Branch structure to be checked \\
+\hline
+{\em product\+ID} & Id of the chosen product. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{branch_8h_ab78dddaa4a96b4011d6f415746225189}\label{branch_8h_ab78dddaa4a96b4011d6f415746225189}} 
+\index{branch.h@{branch.h}!initBranch@{initBranch}}
+\index{initBranch@{initBranch}!branch.h@{branch.h}}
+\doxysubsubsection{\texorpdfstring{initBranch()}{initBranch()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{branch_8h_af8c19b0912e34d02318367931d7181b2}{Branch}} init\+Branch (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Instanciates the branch structure. 
+
+\mbox{\Hypertarget{branch_8h_a7539b7a7e5c9ae1d26a8659a6a244b21}\label{branch_8h_a7539b7a7e5c9ae1d26a8659a6a244b21}} 
+\index{branch.h@{branch.h}!updateBranch@{updateBranch}}
+\index{updateBranch@{updateBranch}!branch.h@{branch.h}}
+\doxysubsubsection{\texorpdfstring{updateBranch()}{updateBranch()}}
+{\footnotesize\ttfamily void update\+Branch (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{branch_8h_af8c19b0912e34d02318367931d7181b2}{Branch}}}]{branch,  }\item[{char $\ast$}]{product\+ID,  }\item[{char $\ast$}]{client\+ID,  }\item[{int}]{month,  }\item[{int}]{quantities,  }\item[{int}]{type,  }\item[{float}]{price }\end{DoxyParamCaption})}
+
+
+
+Updates the values of a product and client record in the branch structure. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em branch} & Branch structure containing the record to be updated. \\
+\hline
+{\em product\+ID} & Id of the product who was bought \\
+\hline
+{\em client\+ID} & Id of the client who bought \\
+\hline
+{\em month} & month of the sales \\
+\hline
+{\em quantities} & number of units bought \\
+\hline
+{\em type} & int signalling the type of sale \\
+\hline
+{\em price} & price of a unit \\
+\hline
+\end{DoxyParams}

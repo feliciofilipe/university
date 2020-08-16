@@ -1,0 +1,9 @@
+<map id="/mnt/262729a1&#45;51d5&#45;4621&#45;a6a2&#45;365439ec76db/Universidade/2º Ano/2º Semestre/LI3/grupo39/grupo39/projC/include/interface.h" name="/mnt/262729a1&#45;51d5&#45;4621&#45;a6a2&#45;365439ec76db/Universidade/2º Ano/2º Semestre/LI3/grupo39/grupo39/projC/include/interface.h">
+<area shape="rect" id="node1" title="Module where the SGV is implemented. The main module of the Module layer." alt="" coords="379,5,604,91"/>
+<area shape="rect" id="node2" href="$controler_8h.html" title="Module responsible for the controller layer." alt="" coords="5,139,231,224"/>
+<area shape="rect" id="node3" href="$main_8c.html" title=" " alt="" coords="92,272,317,357"/>
+<area shape="rect" id="node4" href="$view_8h.html" title=" " alt="" coords="304,139,529,224"/>
+<area shape="rect" id="node5" href="$controller_8c.html" title=" " alt="" coords="365,272,591,357"/>
+<area shape="rect" id="node6" href="$interface_8c.html" title=" " alt="" coords="603,139,828,224"/>
+<area shape="rect" id="node7" href="$view_8c.html" title=" " alt="" coords="852,139,1077,224"/>
+</map>
