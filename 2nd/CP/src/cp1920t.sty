@@ -1,0 +1,131 @@
+%================= Standard packages ==========================================%
+\usepackage{fleqn}
+\usepackage[portuguese]{babel}
+\usepackage[utf8]{inputenc}
+%----------------- testing ----------------------------------------------------%
+\newtheorem{teste}{\underline{Teste unitário}}%
+\newtheorem{propriedade}{\relax{Propriedade [\href{https://hackage.haskell.org/package/QuickCheck}{QuickCheck}]}}%
+%----------------- verbatim ---------------------------------------------------%
+\usepackage{fancyvrb}
+%----------------- Using xy ---------------------------------------------------%
+\usepackage[all]{xy}
+\def\larrow#1#2#3{\xymatrix{ #3 & #1 \ar[l]_-{#2} }}
+\def\rarrow#1#2#3{\xymatrix{ #1 \ar[r]^-{#2} & #3 }}
+\def\u{u}                  % unidade de um mónade
+\def\fun#1{{\sf #1}\index{Functor}}
+%----------------- Using makeidx ----------------------------------------------%
+\usepackage{makeidx}
+\def\random#1{\href{https://hackage.haskell.org/package/random-1.1/docs/System-Random.html}{#1}\index{Haskell!Monad!Random}}
+\def\truchet#1{\href{https://en.wikipedia.org/wiki/Truchet_tiles}{#1}\index{Mosaico de Truchet}}
+\def\BTree{\href{http://wiki.di.uminho.pt/twiki/pub/Education/CP/MaterialPedagogico/BTree.hs}{BTree}\index{Cálculo de Programas!Material Pedagógico!BTree.hs}}
+\def\Bibtex{\href{http://www.bibtex.org/}{Bib\TeX}\index{\LaTeX!\texttt{bibtex}}}
+\def\Exp{\href{http://wiki.di.uminho.pt/twiki/pub/Education/CP/MaterialPedagogico/Exp.hs}{Exp}\index{Cálculo de Programas!Material Pedagógico!Exp.hs}}
+\def\GHCi{\ghci{GHCi}}
+\def\IO{IO\index{Mónade!\texttt{IO}}}
+\def\Html{\textsc{Html}\index{HTML}}
+\def\LTree{\href{http://wiki.di.uminho.pt/twiki/pub/Education/CP/MaterialPedagogico/LTree.hs}{LTree}\index{Cálculo de Programas!Material Pedagógico!LTree.hs}}
+\def\Latex{\href{http://www.tug.org/index.html}{\LaTeX}\index{\LaTeX}}
+\def\LhsToTeX{\lhstotex{lhs2tex}}
+\def\List{\href{http://wiki.di.uminho.pt/twiki/pub/Education/CP/MaterialPedagogico/List.hs}{List}\index{Cálculo de Programas!Material Pedagógico!List.hs}}
+\def\Makeindex{\href{https://www.ctan.org/pkg/makeindex}{\texttt{makeindex}}\index{\LaTeX!\texttt{makeindex}}}
+\def\MaterialPedagogico{\material{material pedagógico}}
+\def\N{I\!\!N\index{Números naturais ($I\!\!N$)}}
+\def\PFP{\href{http://web.engr.oregonstate.edu/~erwig/pfp}{PHP}\index{Haskell!Biblioteca!PFP}}
+\def\Probability{\href{http://wiki.di.uminho.pt/twiki/bin/view/Education/CP/MaterialPedagogico}{Probability}\index{Haskell!Biblioteca!Probability}}
+\def\QuickCheck{\href{https://wiki.haskell.org/Introduction_to_QuickCheck1}{QuickCheck}\index{Haskell!QuickCheck}}
+\def\Unix{\href{https://en.wikipedia.org/wiki/Unix}{Unix}\index{Unix}}
+\def\R{I\!\!R\index{Números reais ($I\!\!R$)}}
+\def\TUG{TUG\index{TeX!TeX Users Group (TUG)}}
+\def\alt#1#2{\mathopen{[}#1 , #2\mathclose{]}\index{Combinador ``pointfree''!\emph{either}}}	% "either" is reserved....
+\def\ap#1#2{#1\,#2}
+\def\bang{{!}\index{Função!\emph{bang}}}
+\def\btree#1{\href{https://en.wikipedia.org/wiki/B-tree}{#1}\index{B-tree}}
+\def\xfig#1{\href{https://sourceforge.net/projects/mcj/}{#1}\index{X-fig}}
+\def\cata#1{\mathopen{(\!|}#1\mathclose{|\!)}\index{Combinador ``pointfree''!\emph{cata}}}
+\def\N{\mathbb{N}\index{Números naturais ($I\!\!N$)}}
+\def\B{\mathbb{B}\index{Booleans}}
+\def\cp#1{\href{http://wiki.di.uminho.pt/twiki/bin/view/Education/CP/WebHome}{#1}\index{Cálculo de Programas}}
+\def\gloss#1{\href{https://hackage.haskell.org/package/gloss-1.13.1.1/docs/Graphics-Gloss.html}{#1}\index{Haskell!Gloss}}
+\def\graphviz#1{\href{https://www.graphviz.org/}{#1}\index{Graphviz}}
+\def\pd#1{\href{https://en.wikipedia.org/wiki/Dynamic_programming}{#1}\index{Programação dinâmica}}
+\def\CP{\href{http://wiki.di.uminho.pt/twiki/bin/view/Education/CP/WebHome}{Cálculo de Programas}\index{Cálculo de Programas}}
+\def\dium{\htmladdnormallink{Departamento de Informática}{http://www.di.uminho.pt/}\index{U.Minho!Departamento de Informática}}
+\def\file#1{\texttt{#1}\index{Ficheiro!\texttt{#1}}}
+\def\ghci#1{\href{https://downloads.haskell.org/~ghc/latest/docs/html/users_guide/ghci.html}{#1}\index{Haskell!interpretador!GHCi}}
+\def\graphviz#1{\href{http://graphviz.org/}{#1}\index{Graphviz}}
+\def\webgraphviz#1{\href{http://www.webgraphviz.com/}{#1}\index{Graphviz!WebGraphviz}}
+\def\gcc#1{\href{https://www.gnu.org/software/gcc/}{#1}\index{GCC}}
+\def\pda#1{\href{https://en.wikipedia.org/wiki/Stack_machine\#Simple_compilers}{#1}\index{Stack machine}}
+\def\haskell#1{\href{http://www.haskell.org}{#1}\index{Haskell}}
+\def\haskellf#1{\texttt{#1}\index{Função!\texttt{#1}}}
+\def\hcata{cata\index{Combinador ``pointfree''!\emph{cata}}}
+\def\iso{\mathbin{\cong}\index{Relação de isomorfismo}}
+\def\kons#1{\underline{#1}\index{Combinador ``pointfree''!função constante}}
+\def\length#1{\mathsf{length}\ #1\index{Função!\emph{length}}}
+\def\lhaskell#1{#1\index{Haskell!``Literate Haskell''}}
+\def\lhstotex#1{\href{https://hackage.haskell.org/package/lhs2tex}{#1}\index{\LaTeX!\texttt{lhs2TeX}}}
+\def\litp#1{\href{http://www.literateprogramming.com}{#1}\index{Programação literária}}
+\def\lsystem#1{\href{https://en.wikipedia.org/wiki/L-system}{#1}\index{L-system}}
+\def\map#1{\mathsf{map}\ #1\index{Função!\emph{map}}}
+\def\for#1#2{\mathsf{for}\ #1 #2\index{Função!\emph{for}}}
+\def\material#1{\href{http://wiki.di.uminho.pt/twiki/bin/view/Education/CP/MaterialPedagogico}{#1}\index{Cálculo de Programas!Material Pedagógico}}
+\def\p#1{\pi_{#1}\index{Função!$\pi_#1$}}
+\def\sana#1{\mathopen{[\!(}#1\mathclose{)\!]}\index{Combinador ``pointfree''!\emph{ana}}}
+\def\split#1#2{\mathopen{\langle}#1 , #2\mathclose{\rangle}\index{Combinador ``pointfree''!\emph{split}}} % <a,b,...z>
+\def\succ#1{\mathsf{succ}\ #1\index{Função!\emph{succ}}}
+\def\taylor#1{\href{https://en.wikipedia.org/wiki/Taylor_series}{#1}\index{Taylor series!Maclaurin series}}
+\def\texcmd#1{\texttt{#1}\index{\LaTeX!macro!\texttt{#1}}}
+\def\trans#1{\overline{#1\rule{0pt}{.6em}}\index{Combinador ``pointfree''!transposição}}
+\def\uncurry #1{\widehat{#1}\index{Função!\emph{uncurry}}}
+\def\wc#1{\href{http://pubs.opengroup.org/onlinepubs/9699919799/utilities/wc.html}{#1}\index{Unix shell!wc}}
+\def\xypic#1{\textsc{#1}\index{\LaTeX!pacote!XY-pic}}
+%----------------- Extracted from jnobasics.sty -------------------------------%
+\long\def\pdfout#1{\relax}
+\def\mcond#1#2#3{#1 \rightarrow #2 , #3}
+\newenvironment{lcbr}{\left\{\begin{array}{l}}{\end{array}\right.}
+\newenvironment{calculation}{\begin{eqnarray*}&&}{\end{eqnarray*}}
+\def\eg{\emph{eg.}}
+\def\esimo#1{#1${.\kern-.1em}^{\super{o}}$}
+\def\esima#1{#1${.\kern-.1em}^{\super{a}}$}
+\def\super#1{\mbox{{\scriptsize #1}}}
+\def\comp{\mathbin{\cdot}}
+\def\implied{\mathbin\Leftarrow}
+\def\deff{\stackrel{\rm def}{=}}          % Function definition symbol
+\def\kcomp{\mathbin{\bullet}}
+\def\conj#1#2{\mathopen{\langle} #1, #2 \mathclose{\rangle}}
+\def\start{&&}
+\def\more{\\&&}
+\def\qed{\\&\Box&}
+\def\just#1#2{\\ &#1& \rule{2em}{0pt} \{ \mbox{\rule[-.7em]{0pt}{1.8em} \small #2 \/} \} \nonumber\\ && }
+%----------------- Cross references -------------------------------------------%
+\newlabel{eq:fokkinga}{{3.94}{98}{}{}{}}
+\newlabel{ex:exp}{{3.30}{102}{}{}{}}
+%----------------- Importing/modifying isolatin1 ------------------------------%
+%\usepackage{isolatin1}
+%\catcode181=13  \def^^b5{\mu}				% 181, '265, "b5
+%\@ifundefined{lguill}{\def^^ab{``}}{\def^^ab{\lguill}}
+%\@ifundefined{rguill}{\def^^bb{''}}{\def^^bb{\rguill}}
+%\catcode186=13  \def^^ba{${\kern-.1em}^{\mbox{\scriptsize o}}$}      % 186, '272, "ba
+%\catcode183=13  \def^^b7{\comp}     % 183, '267, "b7
+%----------------- WWW interfacing desabled -----------------------------------%
+\let\pisca=\relax
+\def\quoteId#1#2{\textsl{#1}}
+\def\quoteUrl#1#2{\texttt{#2}}
+\let\htmladdnormallink=\quoteId             % HTML links disabled by default
+%----------------- Shortcuts --------------------------------------------------%
+\def\Haskell{\haskell{Haskell}}
+\def\Graphviz{\graphviz{Graphviz}}
+\def\WebGraphviz{\webgraphviz{WebGraphviz}}
+\def\LSystems{\lsystem{L-Systems}}
+\def\LSystem{\lsystem{L-System}}
+%----------------- Date -------------------------------------------------------%
+\def\mydate{
+\ifcase\month\or
+ Janeiro\or Fevereiro\or Março\or Abril\or Maio\or Junho\or Julho\or Agosto\or Setembro\or Outubro\or Novembro\or Dezembro\fi \ de \number\year
+}
+%----------------- Problemas ----------------------------------------------------%
+\newcount\pn \pn=1 % Problem number
+\def\Problema{\section*{Problema \number\pn}\global\advance\pn by 1}
+
+%----------------- fim ----------------------------------------------------------%
+

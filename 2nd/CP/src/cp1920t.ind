@@ -1,0 +1,64 @@
+\begin{theindex}
+
+  \item \LaTeX , \hyperpage{1}
+    \subitem \texttt  {bibtex}, \hyperpage{2}
+    \subitem \texttt  {lhs2TeX}, \hyperpage{1}
+    \subitem \texttt  {makeindex}, \hyperpage{2}
+
+  \indexspace
+
+  \item Combinador ``pointfree''
+    \subitem \emph  {cata}, \hyperpage{11}, \hyperpage{14}, 
+		\hyperpage{16--19}
+    \subitem \emph  {either}, \hyperpage{12}, \hyperpage{14--19}
+  \item Cálculo de Programas, \hyperpage{1, 2}
+    \subitem Material Pedagógico, \hyperpage{1}
+      \subsubitem BTree.hs, \hyperpage{3}
+
+  \indexspace
+
+  \item Functor, \hyperpage{4}, \hyperpage{6--9}, \hyperpage{12, 13}, 
+		\hyperpage{16, 17}, \hyperpage{19, 20}
+  \item Função
+    \subitem $\pi _1$, \hyperpage{11}, \hyperpage{15--18}
+    \subitem $\pi _2$, \hyperpage{11, 12}, \hyperpage{16--18}
+    \subitem \emph  {length}, \hyperpage{7}, \hyperpage{12}, 
+		\hyperpage{15}
+    \subitem \emph  {map}, \hyperpage{11}, \hyperpage{14, 15}, 
+		\hyperpage{20}
+    \subitem \emph  {uncurry}, \hyperpage{12}, \hyperpage{14}, 
+		\hyperpage{20}
+
+  \indexspace
+
+  \item Haskell, \hyperpage{1, 2}, \hyperpage{6}, \hyperpage{9}
+    \subitem ``Literate Haskell'', \hyperpage{1}
+    \subitem Biblioteca
+      \subsubitem PFP, \hyperpage{8}
+      \subsubitem Probability, \hyperpage{7, 8}
+    \subitem Gloss, \hyperpage{2}, \hyperpage{9}, \hyperpage{13}
+    \subitem interpretador
+      \subsubitem GHCi, \hyperpage{2}, \hyperpage{8}
+    \subitem Monad
+      \subsubitem Random, \hyperpage{9}
+    \subitem QuickCheck, \hyperpage{2}
+
+  \indexspace
+
+  \item Mosaico de Truchet, \hyperpage{9}
+
+  \indexspace
+
+  \item Números naturais ($I\mskip -\thinmuskip \mskip -\thinmuskip N$), 
+		\hyperpage{11}
+
+  \indexspace
+
+  \item Programação literária, \hyperpage{1}
+
+  \indexspace
+
+  \item U.Minho
+    \subitem Departamento de Informática, \hyperpage{1}
+
+\end{theindex}

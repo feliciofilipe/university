@@ -1,0 +1,84 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.34.1.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: c437d678b514d64a904fb39d1489d32fe45bf805565afb8f40411b3afc8cc812
+
+name:           cp
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/cp#readme>
+homepage:       https://github.com/githubuser/cp#readme
+bug-reports:    https://github.com/githubuser/cp/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2020 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/cp
+
+library
+  exposed-modules:
+      BTree
+      Cp
+      Exp
+      FTree
+      List
+      ListUtils
+      LTree
+      Nat
+      Probability
+      Show
+      St
+  other-modules:
+      Paths_cp
+  hs-source-dirs:
+      src
+  build-depends:
+      QuickCheck
+    , base >=4.7 && <5
+    , gloss
+    , process
+    , random
+  default-language: Haskell2010
+
+executable cp-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_cp
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      QuickCheck
+    , base >=4.7 && <5
+    , cp
+    , gloss
+    , process
+    , random
+  default-language: Haskell2010
+
+test-suite cp-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_cp
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      QuickCheck
+    , base >=4.7 && <5
+    , cp
+    , gloss
+    , process
+    , random
+  default-language: Haskell2010

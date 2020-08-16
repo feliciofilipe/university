@@ -1,0 +1,12 @@
+Ex4 
+
+anita = Query("2a feira?", (Query("chuva na ida", (Dec "precisa", Query("chuva no regresso?", (Dec "precisa", Dec "nao precisa")))), Dec "nao precisa"))
+ltreeAnita = extLTree anita
+
+lBool = [True,False,False]
+
+--bnavLTRee
+arvore1 = Node (True,((Node(False,(Empty,Empty))), Empty))
+--pbnavLTree
+arvore2 = Node(D[(True, 0.8) , (False, 0.2)], (Empty, Empty))
+arvore3 = Node(D[(True, 0.8) , (False, 0.2)], (Node(D[(True,0.6),(False,0.4)],(Empty,Empty)), Empty))
