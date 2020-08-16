@@ -48,13 +48,13 @@ This repository contains all the projects I developed during my degree.
 ## :handshake: Contributors
 
 - [Filipe Felício][filipe]
-- [Alexandre Ferreira][alexandre]
+- [Alexandre Ferreira][alex]
 - [Henrique Ribeiro][henrique]
 - [João Correia][correia]
 - [Luís Araújo][luis]
 
 [filipe]: https://github.com/FilipeFelicio
-[alexandre] https://github.com/PietroPan
+[alex]: https://github.com/PietroPan
 [henrique]: https://github.com/henriq350
 [correia]: https://github.com/jpcorreia99
 [luis]: https://github.com/LAraujo7
