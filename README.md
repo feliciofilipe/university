@@ -16,13 +16,13 @@ This repository contains all the projects I developed during my degree.
 
 - ##### 1st semester
 
-  - [Software Labs I](/1st/LI1/):
+  (18) [Software Labs I](/1st/LI1/):
     This project consists in a remake of the game Tanks. It has been developed in the
     Haskell programming language.
 
 - ##### 2nd semester
 
-  - [Software Labs II](/1st/LI2):
+  (16) [Software Labs II](/1st/LI2):
     This project is a board game build in C.
     
 ### **2nd year**
