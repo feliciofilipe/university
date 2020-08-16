@@ -35,15 +35,15 @@ This repository contains all the projects I developed during my degree.
   - (19/20) [Software Labs III](/2nd/LI3):
     This project is a Sales Management System for Hypermarkets with branches
     done twice in C and JAVA.
-    - Best Grade in Class
+    - Best Group Project Grade in 19/20
   - (18/20) [Object Oriented Programming](/2nd/POO):
     This project is a Command Line Application for delivery system build in the JAVA
     programming language.
-    - Best Grade in Class
+    - Best Group Project Grade in 19/20
   - (19.4/20) [Program Calculation](/2nd/CP):
     This project follows program design by calculation methods with literate
     programming principles using Haskell and `lhs2TeX`.
-    - Best Grade in Class
+    - Best Group Project Grade in 19/20
 
 ## :handshake: Contributors
 
