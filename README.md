@@ -67,9 +67,11 @@ mention the most decisive ones by alphabetical order.
 
 - [Eduardo Jorge][eduardo]
 - [Francisco Lira][lira]
+- [Nelson Estevão][nelson]
 
 [eduardo]: https://github.com/herulume
 [lira]: https://github.com/FranciscoLira
+[nelson]: https://github.com/nelsonmesteva
 
 ## :pray: Special Thanks
 
