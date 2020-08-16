@@ -19,7 +19,7 @@ This repository contains all the projects I developed during my degree.
   - (18/20) [Software Labs I](/1st/LI1/):
     This project consists in a remake of the game Tanks. It has been developed in the
     Haskell programming language.
-    - ##### :trophy: Won the Best UI/UX award through public vote, inducted in to the class [Hall of Fame][hof] (2018/2019).
+    - #### :trophy: Won the Best UI/UX award through public vote, inducted in to the class [Hall of Fame][hof] (2018/2019).
     
     [hof]: https://haslab.github.io/Teaching/LI1/
 
@@ -35,15 +35,15 @@ This repository contains all the projects I developed during my degree.
   - (19/20) [Software Labs III](/2nd/LI3):
     This project is a Sales Management System for Hypermarkets with branches
     done twice in C and JAVA.
-    - ##### :trophy: Best Group Project Grade in this Class (2019/2020).
+    - #### :star: Best Group Project Grade in this Class (2019/2020).
   - (18/20) [Object Oriented Programming](/2nd/POO):
     This project is a Command Line Application for delivery system build in the JAVA
     programming language.
-    - ##### :trophy: Best Group Project Grade in this Class (2019/2020).
+    - #### :star: Best Group Project Grade in this Class (2019/2020).
   - (19.4/20) [Program Calculation](/2nd/CP):
     This project follows program design by calculation methods with literate
     programming principles using Haskell and `lhs2TeX`.
-    - ##### :trophy: Best Group Project Grade in this Class (2019/2020).
+    - #### :star: Best Group Project Grade in this Class (2019/2020).
 
 ## :handshake: Contributors
 
