@@ -17,7 +17,7 @@ This repository contains all the projects I developed during my degree.
 - ##### 1st semester
 
   - (18/20) [Software Labs I](/1st/LI1/):
-    This project consists in a remake of the game Tanks. It has been developed in the
+    This project consists in a remake of the game `Tank Battalion`. It has been developed in the
     Haskell programming language.
     - #### :trophy: Won the Best UI/UX award through public vote, inducted in to the class [Hall of Fame][hof] (2018/2019).
     
@@ -26,7 +26,7 @@ This repository contains all the projects I developed during my degree.
 - ##### 2nd semester
 
   - (16/20) [Software Labs II](/1st/LI2):
-    This project is a version of the Reversi board game build in C.
+    This project is a version of the `Reversi` board game build in C.
     
 ### **2nd year**
 
