@@ -1,0 +1,73 @@
+\section{C\+:/\+C\+Lion\+Projects/\+L\+I2/\+Reversi/stack.c File Reference}
+\label{stack_8c}\index{C:/CLionProjects/LI2/Reversi/stack.c@{C:/CLionProjects/LI2/Reversi/stack.c}}
+{\ttfamily \#include \char`\"{}stack.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}functions.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \textbf{ validstate} (\textbf{ E\+S\+T\+A\+DO} $\ast$e)
+\item 
+void \textbf{ undo} (\textbf{ S\+T\+A\+CK} $\ast$pointer)
+\item 
+\textbf{ S\+T\+A\+CK} \textbf{ pop} (\textbf{ S\+T\+A\+CK} pointer)
+\item 
+\textbf{ S\+T\+A\+CK} \textbf{ push} (\textbf{ S\+T\+A\+CK} pointer, \textbf{ E\+S\+T\+A\+DO} new)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\mbox{\label{stack_8c_af3faabeca2390302dc29d6247269c146}} 
+\index{stack.c@{stack.c}!pop@{pop}}
+\index{pop@{pop}!stack.c@{stack.c}}
+\subsubsection{pop()}
+{\footnotesize\ttfamily \textbf{ S\+T\+A\+CK} pop (\begin{DoxyParamCaption}\item[{\textbf{ S\+T\+A\+CK}}]{pointer }\end{DoxyParamCaption})}
+
+Faz pop da S\+T\+A\+CK de E\+S\+T\+A\+D\+OS 
+\begin{DoxyParams}{Parameters}
+{\em pointer} & -\/ apontador para a S\+T\+A\+CK de E\+S\+T\+A\+D\+OS \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+S\+T\+A\+CK atualizada 
+\end{DoxyReturn}
+\mbox{\label{stack_8c_a8af8b53dd4115ebf6576c3fbd991bd73}} 
+\index{stack.c@{stack.c}!push@{push}}
+\index{push@{push}!stack.c@{stack.c}}
+\subsubsection{push()}
+{\footnotesize\ttfamily \textbf{ S\+T\+A\+CK} push (\begin{DoxyParamCaption}\item[{\textbf{ S\+T\+A\+CK}}]{pointer,  }\item[{\textbf{ E\+S\+T\+A\+DO}}]{new }\end{DoxyParamCaption})}
+
+Faz push da S\+T\+A\+CK de E\+S\+T\+A\+D\+OS 
+\begin{DoxyParams}{Parameters}
+{\em pointer} & -\/ apontador para a S\+T\+A\+CK de E\+S\+T\+A\+D\+OS \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+S\+T\+A\+CK atualizada 
+\end{DoxyReturn}
+\mbox{\label{stack_8c_a6e98f72a1106d64e70d4a5659bd8f990}} 
+\index{stack.c@{stack.c}!undo@{undo}}
+\index{undo@{undo}!stack.c@{stack.c}}
+\subsubsection{undo()}
+{\footnotesize\ttfamily void undo (\begin{DoxyParamCaption}\item[{\textbf{ S\+T\+A\+CK} $\ast$}]{pointer }\end{DoxyParamCaption})}
+
+Recua para o E\+S\+T\+A\+DO anterior e imprime o tabuleiro 
+\begin{DoxyParams}{Parameters}
+{\em pointer} & -\/ apontador para a S\+T\+A\+CK de E\+S\+T\+A\+D\+OS \\
+\hline
+\end{DoxyParams}
+\mbox{\label{stack_8c_a6d7906832bc8a6425cdd71e4ef09e872}} 
+\index{stack.c@{stack.c}!validstate@{validstate}}
+\index{validstate@{validstate}!stack.c@{stack.c}}
+\subsubsection{validstate()}
+{\footnotesize\ttfamily int validstate (\begin{DoxyParamCaption}\item[{\textbf{ E\+S\+T\+A\+DO} $\ast$}]{e }\end{DoxyParamCaption})}
+
+Verifica se um estado é valido 
+\begin{DoxyParams}{Parameters}
+{\em e} & -\/ E\+S\+T\+A\+DO \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+B\+O\+OL (1 ou 0) 
+\end{DoxyReturn}
