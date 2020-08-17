@@ -49,12 +49,14 @@ This repository contains all the projects I developed during my degree.
 
 - [Filipe Felício][filipe]
 - [Alexandre Ferreira][alex]
+- [Ana Luísa Carneiro][luisa]
 - [Henrique Ribeiro][henrique]
 - [João Correia][correia]
 - [Luís Araújo][luis]
 
 [filipe]: https://github.com/FilipeFelicio
 [alex]: https://github.com/PietroPan
+[luisa]: https://github.com/Analucar
 [henrique]: https://github.com/henriq350
 [correia]: https://github.com/jpcorreia99
 [luis]: https://github.com/LAraujo7
@@ -67,11 +69,12 @@ mention the most decisive ones by alphabetical order.
 
 - [Eduardo Jorge][eduardo]
 - [Francisco Lira][lira]
+- [Miguel Brandão][brandao]
 - [Nelson Estevão][nelson]
 
 [eduardo]: https://github.com/herulume
 [lira]: https://github.com/FranciscoLira
-[nelson]: https://github.com/nelsonmesteva
+[brandao]: https://github.com/miguelbrandao
 
 ## :pray: Special Thanks
 
