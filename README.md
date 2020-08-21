@@ -54,7 +54,7 @@ This repository contains all the projects I developed during my degree.
 - [João Correia][correia]
 - [Luís Araújo][luis]
 
-[filipe]: https://github.com/FilipeFelicio
+[filipe]: https://github.com/feliciofilipe
 [alex]: https://github.com/PietroPan
 [luisa]: https://github.com/Analucar
 [henrique]: https://github.com/henriq350
