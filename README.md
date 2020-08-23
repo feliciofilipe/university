@@ -35,7 +35,7 @@ This repository contains all the projects I developed during my degree.
 - ##### 2nd semester
 
   - (19/20) [Software Labs III](/2nd/LI3):
-    This project is a modular Sales Management System with done twice in C and JAVA.
+    This project is a modular Sales Management System done twice in C and JAVA.
     - #### :star: Best Group Project Grade in this Class (2019/2020).
   - (18/20) [Object Oriented Programming](/2nd/POO):
     This project is a Command Line Application for delivery system built in the JAVA
