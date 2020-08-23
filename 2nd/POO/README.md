@@ -1,6 +1,6 @@
 # Object Oriented Programming
 
-This project was a Command Line Application for a delivery system built developed in JAVA following Object Oriented Programming principles and using abstraction and reflections to automatically generate the app from the source code. 
+This project was a Command Line Application for a delivery system developed in JAVA following Object Oriented Programming principles and using abstraction and reflections to automatically generate the app from the source code. 
 
 #### :star: (18/20) Best Group Project Grade in this Class (2019/2020).
 
