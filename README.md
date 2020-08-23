@@ -28,7 +28,7 @@ This repository contains all the projects I developed during my degree.
 - ##### 2nd semester
 
   - (16/20) [Software Labs II](/1st/LI2):
-    This project is a version of the `Reversi` board game build in C.
+    This project is a version of the `Reversi` board game built in C.
     
 ### **2nd year**
 
