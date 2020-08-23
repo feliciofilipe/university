@@ -1,4 +1,4 @@
-# Object Oriented Programming
+# Software Labs III
 
 This project is a modular Sales Management System done twice in C and JAVA.
 
