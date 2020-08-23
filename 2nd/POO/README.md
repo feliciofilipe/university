@@ -6,7 +6,7 @@ This project is a modular Sales Management System done twice in C and JAVA.
 
 ## Team
 
-![Filipe Felício][filipe-pic] | ![João Correia][correia] | ![Henrique Ribeiro][henrique-pic]
+![Filipe Felício][filipe-pic] | ![João Correia][correia-pic] | ![Henrique Ribeiro][henrique-pic]
 :---: | :---: | :---:
 [Filipe Felício][filipe] | [João Correia][correia] | [Henrique Ribeiro][henrique]
 
