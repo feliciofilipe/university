@@ -20,8 +20,10 @@ This repository contains all the projects I developed during my degree.
     This project consists in a remake of the game `Tank Battalion`. It has been developed in the
     Haskell programming language.
     - #### :trophy: Won the Best UI/UX award through public vote, inducted to the class [Hall of Fame][hof] (2018/2019).
-    
+    - #### :video_game: Play version 1.0.0 [here][hof_game].
+  
     [hof]: https://haslab.github.io/Teaching/LI1/
+    [hof_game]: https://haslab.github.io/Teaching/LI1/1819_web/2018li1g159/web/2018li1g159/Tarefa5_2018li1g159.jsexe/run.html
 
 - ##### 2nd semester
 
@@ -33,12 +35,11 @@ This repository contains all the projects I developed during my degree.
 - ##### 2nd semester
 
   - (19/20) [Software Labs III](/2nd/LI3):
-    This project is a Sales Management System for Hypermarkets with branches
-    done twice in C and JAVA.
+    This project is a modular Sales Management System with done twice in C and JAVA.
     - #### :star: Best Group Project Grade in this Class (2019/2020).
   - (18/20) [Object Oriented Programming](/2nd/POO):
-    This project is a Command Line Application for delivery system build in the JAVA
-    programming language.
+    This project is a Command Line Application for delivery system built in the JAVA
+    programming language using abstraction and reflections to automatically generate the    app from the source code. 
     - #### :star: Best Group Project Grade in this Class (2019/2020).
   - (19.4/20) [Program Calculation](/2nd/CP):
     This project follows program design by calculation methods with literate
