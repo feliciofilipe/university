@@ -64,7 +64,7 @@ draw tuple = ( foldr (uncurry update) m4p                 -- Map
              . matrix                                     -- [[Bool]]
              . get2) tuple                                -- Tetromino
   where position  = get0 tuple
-        diretion  = get1 tuple                        
+        diretion  = get1 tuple
         block     = get3 tuple
         m4p      = get4 tuple
 
@@ -82,13 +82,15 @@ next Bush               = (Wall Unbreakable)
 instructions list editor = foldr instruction editor list
 
 initialEditor = ( inEditor
-                . uncurry ap4                  
-                . (const >< id)                                 
+                . uncurry ap4
+                . (const >< id)
                 . curry swap ((0,0),Up,I,(Wall Unbreakable),[])
-                . initialMap)                  
+                . initialMap
+                )
 
 build :: Instructions -> Map
 build = ( get4
         . outEditor
         . uncurry instructions
-        . curry swap (initialEditor (5,5)))
+        . curry swap (initialEditor (5,5))
+        )

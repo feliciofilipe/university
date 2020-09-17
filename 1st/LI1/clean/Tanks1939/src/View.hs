@@ -43,7 +43,7 @@ width = (-512.5)
 
 quarter = Scale 0.5 0.5
 
-draw view = picture          
+draw view = picture
   where picture   = Pictures (m4p ++ players)
         players   = ( map put1   -- [Picture]
                     . map swap   -- [(Player,Int)]
@@ -53,11 +53,11 @@ draw view = picture
                     ) state    -- State
         put1      = uncurry             -- Picture
                     (uncurry Translate) -- Picture
-                    . (grid >< tanks)   -- (Coordinate,Picture)  
-                    . split             -- (Position,(Int,Direction,Picture)) 
+                    . (grid >< tanks)   -- (Coordinate,Picture)
+                    . split             -- (Position,(Int,Direction,Picture)
                     (H.get0 . p1)
                     (trident (H.get2 . p1) (H.get1 . p1) p2)
-                    . ( outPlayer ><    -- (Hextuple,Picture) 
+                    . ( outPlayer ><    -- (Hextuple,Picture)
                     ( uncurry (M.!!!)   -- (Player,Picture)
                     . curry swap pics   -- (Player,((Int,Int),[[Pictures]]))
                     . split one id))    -- (Player,(Int,Int))
@@ -75,7 +75,7 @@ draw view = picture
                     . T.get0        -- Map
                     . outState      -- Triple
                     ) state         -- State
-        positions = ( M.positions -- [(Int,Int)] 
+        positions = ( M.positions -- [(Int,Int)]
                     . T.get0      -- Map
                     . outState    -- Triple
                     ) state       -- State
