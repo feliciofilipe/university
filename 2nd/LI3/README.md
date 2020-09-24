@@ -15,6 +15,15 @@ This project is a modular Sales Management System done twice in C and JAVA.
 [correia]: https://github.com/jpcorreia99
 [correia-pic]: https://github.com/jpcorreia99.png?size=120
 
+## Screenshots
+
+![alt text](https://github.com/feliciofilipe/university/raw/master/2nd/LI3/Screenshots/1.png "Screenshot")
+![alt text](https://github.com/feliciofilipe/university/raw/master/2nd/LI3/Screenshots/0.png "Screenshot")
+![alt text](https://github.com/feliciofilipe/university/raw/master/2nd/LI3/Screenshots/2.png "Screenshot")
+![alt text](https://github.com/feliciofilipe/university/raw/master/2nd/LI3/Screenshots/3.png "Screenshot")
+![alt text](https://github.com/feliciofilipe/university/raw/master/2nd/LI3/Screenshots/4.png "Screenshot")
+
+
 <div align="center">
   <sub>March 2020 - June 2020</sub>
 </div>
