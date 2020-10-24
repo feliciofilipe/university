@@ -68,11 +68,13 @@ In addition to all the help from contributors to each of the projects, many
 other people had a positive impact on my academic journey. This list tries to
 mention the most decisive ones by alphabetical order.
 
+- [Catarina Machado][catarina]
 - [Eduardo Jorge][eduardo]
 - [Francisco Lira][lira]
 - [Miguel Brandão][brandao]
 - [Nelson Estevão][nelson]
 
+[catarina]: https://github.com/catarinamachado
 [eduardo]: https://github.com/herulume
 [lira]: https://github.com/FranciscoLira
 [brandao]: https://github.com/miguelbrandao
