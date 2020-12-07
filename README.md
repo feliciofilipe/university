@@ -1,14 +1,27 @@
 <div align="center">
-  <img src="https://www.eng.uminho.pt/SiteAssets/Logo.PNG" alt="University of Minho">
+   <div class="row">
+  <div class="column">
+    <img src="https://www.eng.uminho.pt/SiteAssets/Logo.PNG" alt="University of Minho">
+  </div>
+  <div class="column">
+    <img src="https://www.topuniversities.com/sites/default/files/styles/logo_88x88/public/profiles/logos/abo-akademi-university_592560cf2aeae70239af4f7a_large.jpg" alt="Åbo Akademi">
+  </div>
+</div> 
   <br>
   <h2>
   <strong>Software Engineering</strong>
   <em>@</em>
   <strong><a href="https://www.uminho.pt/EN/">University of Minho</a></strong>
   </h2>
+    <br>
+  <h3>
+  <strong>Exchange Studies</strong>
+  <em>@</em>
+  <strong><a href="https://www.abo.fi/en/">Åbo Akademi</a></strong>
+  </h3>
 </div>
 
-This repository contains all the projects I developed during my degree.
+This repository contains all the projects I developed during my university degree.
 
 ## :package: List of Projects
 
