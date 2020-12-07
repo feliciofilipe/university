@@ -1,7 +1,7 @@
 <div align="center">
    <div class="row">
   <div class="column">
-    <img src="https://www.eng.uminho.pt/SiteAssets/Logo.PNG" alt="University of Minho" style="width:100%" width = 130>
+    <img src="https://www.eng.uminho.pt/SiteAssets/Logo.PNG" alt="University of Minho" style="width:100%">
   </div>
   <div class="column">
     <img src="https://www.topuniversities.com/sites/default/files/styles/logo_88x88/public/profiles/logos/abo-akademi-university_592560cf2aeae70239af4f7a_large.jpg" alt="Åbo Akademi" style="width:100%">
