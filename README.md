@@ -1,25 +1,10 @@
-<div align="center">
-   <div class="row">
-  <div class="column">
-    <img src="https://www.eng.uminho.pt/SiteAssets/Logo.PNG" alt="University of Minho" height=100>
-  </div>
-  <div class="column">
-    <img src="https://www.topuniversities.com/sites/default/files/styles/logo_88x88/public/profiles/logos/abo-akademi-university_592560cf2aeae70239af4f7a_large.jpg" alt="Åbo Akademi" height=100>
-  </div>
-</div> 
-  <br>
-  <h2>
-  <strong>Software Engineering</strong>
-  <em>@</em>
-  <strong><a href="https://www.uminho.pt/EN/">University of Minho</a></strong>
-  </h2>
-    <br>
-  <h3>
-  <strong>Exchange Studies</strong>
-  <em>@</em>
-  <strong><a href="https://www.abo.fi/en/">Åbo Akademi</a></strong>
-  </h3>
-</div>
+
+![alt text](https://github.com/feliciofilipe/university/raw/master/logo.png "Logo")
+
+## Software Engineering @ [University of Minho][uminho] :portugal: <br /> Exchange Studies @ [Åbo Akademi][abo] :finland:
+
+ [uminho]: https://www.uminho.pt/EN/
+ [abo]: https://www.abo.fi/en/
 
 This repository contains all the projects I developed during my university degree.
 
@@ -58,6 +43,14 @@ This repository contains all the projects I developed during my university degre
     This project follows program design by calculation methods with literate
     programming principles using Haskell and `lhs2TeX`.
     - #### :star: Best Group Project Grade in this Class (2019/2020).
+    
+### **3rd year**
+
+- ##### 1st semester
+
+
+- ##### 2nd semester :finland:
+
 
 ## :handshake: Contributors
 
