@@ -1,17 +1,10 @@
 
 ![alt text](https://github.com/feliciofilipe/university/raw/master/logo.png "Logo")
 
-<div align="center">
-  <br>
-  <h2>
-  <strong>Software Engineering</strong>
-  <em>@</em>
-  <strong><a href="https://www.uminho.pt/EN/">University of Minho :portugal: </a></strong>
-  <strong><br>Exchange Studies</strong>
-  <em>@</em>
-  <strong><a href="https://www.abo.fi/en/">Åbo Akademi :finland:</a></strong>
-  </h2>
-</div>
+## Software Engineering @ [University of Minho][uminho] :portugal: <br /> Exchange Studies @ [Åbo Akademi][abo] :finland:
+
+ [uminho]: https://www.uminho.pt/EN/
+ [abo]: https://www.abo.fi/en/
 
 This repository contains all the projects I developed during my university degree.
 
