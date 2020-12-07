@@ -1,24 +1,16 @@
+
+![alt text](https://github.com/feliciofilipe/university/raw/master/logo.png "Logo")
+
 <div align="center">
-   <div class="row">
-  <div class="column">
-    <img src="https://www.eng.uminho.pt/SiteAssets/Logo.PNG" alt="University of Minho" height=100>
-  </div>
-  <div class="column">
-    <img src="https://www.topuniversities.com/sites/default/files/styles/logo_88x88/public/profiles/logos/abo-akademi-university_592560cf2aeae70239af4f7a_large.jpg" alt="Åbo Akademi" height=100>
-  </div>
-</div> 
   <br>
   <h2>
   <strong>Software Engineering</strong>
   <em>@</em>
-  <strong><a href="https://www.uminho.pt/EN/">University of Minho</a></strong>
-  </h2>
-    <br>
-  <h3>
-  <strong>Exchange Studies</strong>
+  <strong><a href="https://www.uminho.pt/EN/">University of Minho :portugal: </a></strong>
+  <strong><br>Exchange Studies</strong>
   <em>@</em>
-  <strong><a href="https://www.abo.fi/en/">Åbo Akademi</a></strong>
-  </h3>
+  <strong><a href="https://www.abo.fi/en/">Åbo Akademi :finland:</a></strong>
+  </h2>
 </div>
 
 This repository contains all the projects I developed during my university degree.
