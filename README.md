@@ -1,4 +1,4 @@
-<div align="left">
+<div align="center">
    <div class="row">
   <div class="column">
     <img src="https://www.eng.uminho.pt/SiteAssets/Logo.PNG" alt="University of Minho" height=100>
