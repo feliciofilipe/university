@@ -1,7 +1,7 @@
 
 ![alt text](https://github.com/feliciofilipe/university/raw/master/logo.png "Logo")
 
-## Software Engineering @ [University of Minho][uminho] :portugal: <br /> Exchange Studies @ [Åbo Akademi][abo] :finland:
+## Software Engineering @ [University of Minho][uminho] :portugal: <br/> Exchange Studies @ [Åbo Akademi][abo] :finland:
 
  [uminho]: https://www.uminho.pt/EN/
  [abo]: https://www.abo.fi/en/
