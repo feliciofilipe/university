@@ -36,7 +36,7 @@ This repository contains all the projects I developed during my university degre
     This project is a modular Sales Management System done twice in C and JAVA.
     - #### :star: Best Group Project Grade in this Class (2019/2020).
   - (18/20) [Object Oriented Programming](/2nd/POO):
-    This project is a Command Line Application for delivery system built in the JAVA
+    This project is a Command Line Application for a delivery system built in the JAVA
     programming language using abstraction and reflections to automatically generate the    app from the source code. 
     - #### :star: Best Group Project Grade in this Class (2019/2020).
   - (19.4/20) [Program Calculation](/2nd/CP):
