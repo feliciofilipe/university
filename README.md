@@ -62,6 +62,8 @@ This repository contains all the projects I developed during my university degre
 - [Henrique Ribeiro][henrique]
 - [João Correia][correia]
 - [Luís Araújo][luis]
+- [Paulo Barros][paulo]
+- [Ruben Adao][ruben]
 
 [filipe]: https://github.com/feliciofilipe
 [alex]: https://github.com/PietroPan
@@ -69,6 +71,8 @@ This repository contains all the projects I developed during my university degre
 [henrique]: https://github.com/henriq350
 [correia]: https://github.com/jpcorreia99
 [luis]: https://github.com/LAraujo7
+[paulo]: https://github.com/JohnBarros21
+[ruben]: https://github.com/rubenadao
 
 ## :sparkles: Credits
 
