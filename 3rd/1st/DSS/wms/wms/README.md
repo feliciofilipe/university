@@ -11,8 +11,6 @@
 
 # WMS - Warehouse Management System
 
-> A Project Template for programs written in the Java programming language.
-
 ## :rocket: Getting Started
 
 These instructions will get you a copy of the project up and running on your
