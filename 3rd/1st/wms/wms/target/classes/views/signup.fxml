@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane fx:id="outerPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1248.0" stylesheets="@../css/signup.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_controller.Signup">
+    <children>
+        <Pane fx:id="innerPane" layoutX="244.0" layoutY="82.0" prefHeight="486.0" prefWidth="760.0">
+            <children>
+                <Pane fx:id="whiteBar" layoutX="205.0" layoutY="98.0" prefHeight="5.0" prefWidth="350.0" />
+                <Button fx:id="signupButton" layoutX="280.0" layoutY="388.2" mnemonicParsing="false" onAction="#signupHandler" prefHeight="35.0" prefWidth="200.0" text="SIGNUP" />
+                <Label fx:id="backLabel" layoutX="359.0625" layoutY="439.0" text="BACK" />
+                <Label fx:id="floorWorkerLabel" layoutX="205.0" layoutY="123.7" text="FLOOR WORKER" />
+                <Label fx:id="adminLabel" layoutX="355.3" layoutY="123.7" text="ADMIN" underline="true" />
+                <Label fx:id="truckDriverLabel" layoutX="450.31" layoutY="123.7" text="TRUCK DRIVER" />
+                <Label fx:id="signupLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="287.0" layoutY="35.0" text="SIGNUP" textAlignment="CENTER" />
+                <TextField fx:id="firstName" layoutX="280.0" layoutY="165.4" prefHeight="35.0" prefWidth="200.0" promptText="First Name" />
+
+                <TextField fx:id="lastName" layoutX="280.0" layoutY="221.1" prefHeight="35.0" prefWidth="200.0" promptText="Last Name" />
+                <TextField fx:id="email" layoutX="280.0" layoutY="276.8" prefHeight="35.0" prefWidth="200.0" promptText="Email" />
+                <PasswordField fx:id="password" layoutX="280.0" layoutY="332.5" onKeyTyped="#scoreHandler" prefHeight="35.0" prefWidth="200.0" promptText="Password" />
+                <Pane fx:id="bluePane" layoutX="429.5" layoutY="367.0" prefHeight="5.0" prefWidth="49.5" />
+                <Pane fx:id="orangePane" layoutX="330.5" layoutY="367.0" prefHeight="5.0" prefWidth="49.5" />
+                <Pane fx:id="greenPane" layoutX="380.0" layoutY="367.0" prefHeight="5.0" prefWidth="49.5" />
+                <Pane fx:id="redPane" layoutX="281.0" layoutY="367.0" prefHeight="5.0" prefWidth="49.5" />
+                <Button fx:id="loginButton" layoutX="356.0625" layoutY="439.0" mnemonicParsing="false" onAction="#backHandler" prefHeight="25.0" prefWidth="51.0" />
+                <Button fx:id="truckDriverButton" layoutX="445.0" layoutY="123.0" minHeight="20.0" mnemonicParsing="false" onAction="#accountType" prefHeight="20.0" prefWidth="113.0" />
+                <Button fx:id="floorWorkerButton" layoutX="200.0" layoutY="123.0" minHeight="20.0" mnemonicParsing="false" onAction="#accountType" prefHeight="20.0" prefWidth="121.0" />
+                <Button fx:id="adminButton" layoutX="351.0" layoutY="123.0" minHeight="20.0" mnemonicParsing="false" onAction="#accountType" prefHeight="20.0" prefWidth="59.0" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

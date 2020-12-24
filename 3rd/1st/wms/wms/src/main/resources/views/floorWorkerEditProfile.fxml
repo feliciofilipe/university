@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1248.0" stylesheets="@../css/floorWorkerEditProfile.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_controller.FloorWorkerEditProfileController">
+    <children>
+        <Pane fx:id="outerPane1" prefHeight="650.0" prefWidth="1248.0">
+            <children>
+                <Pane fx:id="sideBarPane" prefHeight="650.0" prefWidth="196.0">
+                    <children>
+                        <ImageView fitHeight="54.0" fitWidth="50.0" layoutX="19.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/icons/logo.png" />
+                            </image>
+                        </ImageView>
+                        <Label fx:id="warehouseLogoLabel" layoutX="79.0" layoutY="36.0" text="WAREHOUSE" />
+                        <Label fx:id="managementLogoLabel" layoutX="79.0" layoutY="47.0" text="MANAGEMENT" />
+                        <Label fx:id="systemLogoLabel" layoutX="79.0" layoutY="59.0" text="SYSTEM" />
+                        <Label fx:id="typeOfAccountLabel" alignment="CENTER" layoutX="14.0" layoutY="223.0" maxHeight="50.0" maxWidth="203.0" prefHeight="21.0" prefWidth="168.0" text="FLOOR WORKER" />
+                        <Label fx:id="userNameLabel" alignment="CENTER" layoutX="14.0" layoutY="201.0" maxHeight="50.0" maxWidth="213.0" prefHeight="26.0" prefWidth="168.0" />
+                        <Label fx:id="mainLabel" layoutX="30.0" layoutY="284.0" prefHeight="16.0" prefWidth="35.0" text="MAIN" />
+                        <Label fx:id="receivingStationLabel" layoutX="53.0" layoutY="335.0" text="RECEIVING STATION" />
+                        <Label fx:id="shippingStationLabel" layoutX="53.0" layoutY="386.0" text="SHIPPING STATION" />
+                        <Button fx:id="loginButton" layoutX="53.0" layoutY="590.0" minHeight="23.0" mnemonicParsing="false" onAction="#changeSceneHandler" prefHeight="20.0" prefWidth="90.0" text="LOGOUT" />
+                        <ImageView fitHeight="16.0" fitWidth="14.0" layoutX="30.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/icons/receiving.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="16.0" fitWidth="14.0" layoutX="30.0" layoutY="387.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/icons/trucks.png" />
+                            </image>
+                        </ImageView>
+                        <Circle fill="#6777b8" layoutX="98.0" layoutY="164.0" radius="36.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                        <ImageView fx:id="image" fitHeight="69.0" fitWidth="69.0" layoutX="63.5" layoutY="129.0" pickOnBounds="true" preserveRatio="true" />
+                        <Button fx:id="receivingStationButton" layoutX="27.0" layoutY="332.0" minHeight="18.0" mnemonicParsing="false" onAction="#changeSceneHandler" prefHeight="18.0" prefWidth="142.0" text="Button" />
+                        <Button fx:id="shippingStationButton" layoutX="27.0" layoutY="385.0" minHeight="18.0" mnemonicParsing="false" onAction="#changeSceneHandler" prefHeight="18.0" prefWidth="135.0" text="Button" />
+                    </children>
+                </Pane>
+                <Label fx:id="editProfileTitleLabel" layoutX="271.0" layoutY="36.0" stylesheets="@../css/notifications.css" text="EDIT PROFILE" />
+                <Button fx:id="saveButton" layoutX="663.0" layoutY="565.0" minHeight="40.0" minWidth="90.0" mnemonicParsing="false" onAction="#saveButtonHandler" prefHeight="45.0" prefWidth="110.0" text="SAVE" />
+                <Button fx:id="floorWorkerEditProfileButton" layoutX="63.5" layoutY="129.0" mnemonicParsing="false" onAction="#changeSceneHandler" prefHeight="69.0" prefWidth="69.0">
+                    <graphic>
+                        <Label fx:id="editProfileLabel" text="EDIT PROFILE" />
+                    </graphic>
+                </Button>
+                <VBox fx:id="vbox" alignment="CENTER_LEFT" fillWidth="false" layoutX="493.0" layoutY="125.0" prefHeight="400.0" prefWidth="450.0">
+                    <children>
+                        <Label fx:id="firstNameLabel" text="FIRST NAME">
+                            <VBox.margin>
+                                <Insets bottom="3.0" left="135.0" />
+                            </VBox.margin>
+                        </Label>
+                        <TextField fx:id="firstNameField" prefHeight="30.0" prefWidth="180.0">
+                            <VBox.margin>
+                                <Insets bottom="25.0" left="135.0" />
+                            </VBox.margin>
+                        </TextField>
+                        <Label fx:id="lastNameLabel" text="LAST NAME">
+                            <VBox.margin>
+                                <Insets bottom="3.0" left="135.0" />
+                            </VBox.margin>
+                        </Label>
+                        <TextField fx:id="lastNameField" prefHeight="30.0" prefWidth="180.0">
+                            <VBox.margin>
+                                <Insets bottom="12.5" left="135.0" />
+                            </VBox.margin>
+                        </TextField>
+                        <Label fx:id="emailLabel" text="EMAIL">
+                            <VBox.margin>
+                                <Insets bottom="3.0" left="135.0" top="12.5" />
+                            </VBox.margin>
+                        </Label>
+                        <TextField fx:id="emailField" prefHeight="30.0" prefWidth="180.0">
+                            <VBox.margin>
+                                <Insets left="135.0" />
+                            </VBox.margin>
+                        </TextField>
+                        <Label fx:id="passwordLabel" text="PASSWORD">
+                            <VBox.margin>
+                                <Insets bottom="3.0" left="135.0" top="25.0" />
+                            </VBox.margin>
+                        </Label>
+                        <PasswordField fx:id="passwordField" onKeyTyped="#scoreHandler" prefHeight="30.0" prefWidth="180.0">
+                            <VBox.margin>
+                                <Insets left="135.0" />
+                            </VBox.margin>
+                        </PasswordField>
+                        <HBox prefHeight="5.0" prefWidth="450.0">
+                            <children>
+                                <Pane fx:id="redPane" layoutX="180.0" prefHeight="5.0" prefWidth="44.0">
+                                    <HBox.margin>
+                                        <Insets left="137.0" />
+                                    </HBox.margin>
+                                </Pane>
+                                <Pane fx:id="orangePane" prefHeight="5.0" prefWidth="44.0" />
+                                <Pane fx:id="greenPane" prefHeight="5.0" prefWidth="44.0" />
+                                <Pane fx:id="bluePane" prefHeight="5.0" prefWidth="44.0" />
+                            </children>
+                        </HBox>
+                    </children>
+                </VBox>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

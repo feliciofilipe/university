@@ -1,0 +1,44 @@
+.button{
+    -fx-font-family: "Montserrat";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.text-field{
+    -fx-font-family: "Montserrat";
+    -fx-font-weight: bold;
+    -fx-text-fill: gray;
+}
+
+.label{
+    -fx-font-family: "Montserrat";
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+#tableRow{
+    -fx-background-color: #1a2338;
+}
+
+#companyLabel{
+    -fx-font-size: 6.5pt;
+    -fx-text-fill: gray;
+}
+
+#typePane{
+    -fx-border-radius: 5 5 5 5;
+    -fx-background-radius: 5 5 5 5;
+}
+
+
+#deleteButton{
+    -fx-border-radius: 100 100 100 100;
+    -fx-background-radius: 100 100 100 100;
+    -fx-background-color: #da504a;
+}
+
+#deleteButton:hover{
+    -fx-background-color: linear-gradient(#ea5e5e,#da504a);
+    -fx-effect: dropshadow(three-pass-box , #000000 , 0 , 0.0 , 0 , 0);
+}

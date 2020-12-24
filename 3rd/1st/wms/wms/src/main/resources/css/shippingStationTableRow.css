@@ -1,0 +1,35 @@
+.button{
+    -fx-font-family: "Montserrat";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.text-field{
+    -fx-font-family: "Montserrat";
+    -fx-font-weight: bold;
+    -fx-text-fill: gray;
+}
+
+.label{
+    -fx-font-family: "Montserrat";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+#outerPane{
+    -fx-background-color: #1a2338;
+}
+
+#orderLabel{
+    -fx-font-size: 11pt;
+}
+
+.radio-button .radio, .radio-button .radio .dot{
+    -fx-background-color: #141b2d;
+    -fx-background-insets: 0;
+}
+
+.radio-button:selected .radio, .radio-button:selected .radio .dot{
+    -fx-background-color: #4ccdab;
+    -fx-background-insets: 0;
+}

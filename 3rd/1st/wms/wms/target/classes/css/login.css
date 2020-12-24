@@ -1,0 +1,54 @@
+.button{
+    -fx-font-family: "Montserrat";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.text-field{
+    -fx-font-family: "Montserrat";
+    -fx-font-weight: bold;
+    -fx-text-fill: gray;
+}
+
+.label{
+    -fx-font-family: "Montserrat";
+    -fx-font-weight: normal;
+    -fx-text-fill: white;
+}
+
+#outerPane{
+    -fx-background-color: #141b2d;
+}
+
+#loginPane{
+    -fx-background-color: #1f2940;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}
+
+#warehouseLogoLabel, #managementLogoLabel, #systemLogoLabel{
+    -fx-font-weight: bold;
+    -fx-font-size: 11pt;
+}
+
+#whiteBar{
+    -fx-background-color: white;
+}
+
+#loginButton{
+    -fx-background-color: linear-gradient(#235891,#1d5177);
+    -fx-effect: dropshadow(three-pass-box , #000000 , 0, 0.0 , 0 , 0 );
+}
+
+#loginButton:hover{
+    -fx-background-color: linear-gradient(#1d5177, #235891);
+}
+
+#signupLabel{
+    -fx-font-weight: bold;
+    -fx-font-size: 15pt;
+}
+
+#signupButton{
+    -fx-opacity: 0;
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox fx:id="tableRow" prefHeight="70.0" prefWidth="680.0" stylesheets="@../css/manageAccountsTableRow.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_controller.ManageAccountsTableRowController">
+    <children>
+        <Pane prefHeight="70.0" prefWidth="70.0">
+            <children>
+                <Circle fill="#6777b8" layoutX="35.0" layoutY="35.0" radius="24.0" smooth="false" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                <ImageView fx:id="image2" fitHeight="45.0" fitWidth="45.0" layoutX="12.5" layoutY="13.0" pickOnBounds="true" preserveRatio="true" />
+            </children>
+        </Pane>
+        <HBox alignment="CENTER" prefHeight="70.0" prefWidth="100.0">
+            <children>
+                <Label fx:id="firstNameLabel" alignment="CENTER" text="a" textAlignment="CENTER" />
+            </children>
+            <HBox.margin>
+                <Insets />
+            </HBox.margin>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="70.0" prefWidth="120.0">
+            <children>
+                <Label fx:id="lastNameLabel" alignment="CENTER" text="a" textAlignment="CENTER" />
+            </children>
+            <HBox.margin>
+                <Insets left="25.0" />
+            </HBox.margin>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="70.0" prefWidth="160.0">
+            <children>
+                <Label fx:id="emailLabel" alignment="CENTER" text="filipe_felicio1999@gmail.com" textAlignment="CENTER" />
+            </children>
+            <HBox.margin>
+                <Insets />
+            </HBox.margin>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="70.0" prefWidth="120.0">
+            <children>
+                <Pane fx:id="typePane" maxHeight="22.0" minHeight="22.0" prefHeight="22.0" prefWidth="100.0">
+                    <children>
+                        <Label fx:id="typeAccountLabel" alignment="CENTER" layoutY="3.0" minHeight="0.0" minWidth="100.0" text="FLOOR WORKER" textAlignment="CENTER" />
+                    </children>
+                </Pane>
+            </children>
+            <HBox.margin>
+                <Insets />
+            </HBox.margin>
+        </HBox>
+        <HBox alignment="CENTER_LEFT" prefHeight="70.0" prefWidth="80.0" spacing="10.0">
+            <children>
+                <Button fx:id="acceptAccountButton" minHeight="20.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0">
+                    <HBox.margin>
+                        <Insets left="10.0" />
+                    </HBox.margin>
+                </Button>
+                <Button fx:id="rejectAccountButton" minHeight="20.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0" />
+            </children>
+        </HBox>
+    </children>
+</HBox>

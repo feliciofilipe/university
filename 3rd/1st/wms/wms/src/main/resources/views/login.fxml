@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="outerPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1248.0" stylesheets="@../css/login.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_controller.Login">
+    <children>
+        <Pane fx:id="loginPane" layoutX="435.0" layoutY="93.75" prefHeight="462.5" prefWidth="378.0">
+            <children>
+                <TextField fx:id="emailField" cache="true" layoutX="90.0" layoutY="156.5" onAction="#loginHandler" prefHeight="35.0" prefWidth="200.0" promptText="Email" />
+                <PasswordField fx:id="passwordField" cache="true" layoutX="90.0" layoutY="218.0" onAction="#loginHandler" prefHeight="35.0" prefWidth="200.0" promptText="Password" />
+                <Button fx:id="loginButton" layoutX="90.0" layoutY="279.5" mnemonicParsing="false" onAction="#loginHandler" prefHeight="35.0" prefWidth="200.0" text="LOGIN">
+                </Button>
+                <Label fx:id="signupLabel" layoutX="149.0" layoutY="387.0" minHeight="25.0" minWidth="41.8" text="SIGN UP">
+                    <font>
+                        <Font size="13.0" />
+                    </font>
+                </Label>
+                <Button fx:id="signupButton" layoutX="143.0" layoutY="384.0" mnemonicParsing="false" onAction="#changeSceneHandler" prefHeight="35.0" prefWidth="94.0" />
+                <Pane fx:id="whiteBar" layoutX="30.0" layoutY="355.0" prefHeight="5.0" prefWidth="320.0" />
+                <ImageView fitHeight="76.0" fitWidth="84.0" layoutX="90.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../images/logos/logo_login.png" />
+                    </image>
+                </ImageView>
+                <Label fx:id="warehouseLogoLabel" layoutX="167.0" layoutY="47.0" text="WAREHOUSE" />
+                <Label fx:id="managementLogoLabel" layoutX="167.0" layoutY="65.0" text="MANAGEMENT" />
+                <Label fx:id="systemLogoLabel" layoutX="167.0" layoutY="83.0" text="SYSTEM" />
+            </children>
+        </Pane>
+        <Label fx:id="signupLabel1" alignment="CENTER" layoutX="534.0" layoutY="590.0" minHeight="25.0" minWidth="41.8" text="MADE WITH       BY GROUP 21">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </Label>
+        <Circle fill="#db504a" layoutX="624.5" layoutY="599.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+        <Polygon fill="#db504a" layoutX="627.5" layoutY="615.0" rotate="180.0" scaleX="0.1402" scaleY="0.09" scaleZ="0.1" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0">
+            <points>
+                <Double fx:value="-50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="50.0" />
+                <Double fx:value="40.0" />
+                <Double fx:value="0.0" />
+                <Double fx:value="-60.0" />
+            </points>
+        </Polygon>
+        <Circle fill="#db504a" layoutX="630.5" layoutY="599.0" radius="4.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+    </children>
+</AnchorPane>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1248.0" stylesheets="@../css/seeLocations.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_controller.SeeLocationsController">
+    <children>
+        <Pane fx:id="outerPane1" prefHeight="650.0" prefWidth="1248.0">
+            <children>
+                <Pane fx:id="sideBarPane" prefHeight="650.0" prefWidth="196.0">
+                    <children>
+                        <Label fx:id="dashboardLabel" layoutX="53.0" layoutY="335.0" text="DASHBOARD" />
+                        <ImageView fitHeight="54.0" fitWidth="50.0" layoutX="19.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/icons/logo.png" />
+                            </image>
+                        </ImageView>
+                        <Label fx:id="warehouseLogoLabel" layoutX="79.0" layoutY="36.0" text="WAREHOUSE" />
+                        <Label fx:id="managementLogoLabel" layoutX="79.0" layoutY="47.0" text="MANAGEMENT" />
+                        <Label fx:id="systemLogoLabel" layoutX="79.0" layoutY="59.0" text="SYSTEM" />
+                        <Label fx:id="typeOfAccountLabel" alignment="CENTER" layoutX="14.0" layoutY="223.0" maxHeight="50.0" maxWidth="203.0" prefHeight="21.0" prefWidth="168.0" text="ADMIN" />
+                        <Label fx:id="userNameLabel" alignment="CENTER" layoutX="14.0" layoutY="201.0" maxHeight="50.0" maxWidth="213.0" prefHeight="26.0" prefWidth="168.0" />
+                        <Label fx:id="mainLabel" layoutX="30.0" layoutY="284.0" prefHeight="16.0" prefWidth="35.0" text="MAIN" />
+                        <Label fx:id="manageTrucksLabel" layoutX="53.0" layoutY="386.0" text="MANAGE TRUCKS" />
+                        <Label fx:id="manageAccountsLabel" layoutX="53.0" layoutY="437.0" text="MANAGE ACCOUNTS" />
+                        <Label fx:id="seeLocationsLabel" layoutX="53.0" layoutY="488.0" text="SEE LOCATIONS" />
+                        <Label fx:id="notificationsLabel" layoutX="53.0" layoutY="539.0" text="NOTIFICATIONS" />
+                        <Button fx:id="loginButton" layoutX="53.0" layoutY="590.0" minHeight="23.0" mnemonicParsing="false" onAction="#changeSceneHandler" prefHeight="20.0" prefWidth="90.0" text="LOGOUT" />
+                        <ImageView fitHeight="16.0" fitWidth="14.0" layoutX="30.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/icons/dashboard.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="16.0" fitWidth="14.0" layoutX="30.0" layoutY="387.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/icons/trucks.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="16.0" fitWidth="14.0" layoutX="30.0" layoutY="438.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/icons/accounts.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="16.0" fitWidth="14.0" layoutX="30.0" layoutY="488.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/icons/locationsSelected.png" />
+                            </image>
+                        </ImageView>
+                        <ImageView fitHeight="16.0" fitWidth="14.0" layoutX="30.0" layoutY="540.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/icons/notification.png" />
+                            </image>
+                        </ImageView>
+                        <Circle fill="#6777b8" layoutX="98.0" layoutY="164.0" radius="36.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                        <ImageView fx:id="image" fitHeight="69.0" fitWidth="69.0" layoutX="63.5" layoutY="129.0" pickOnBounds="true" preserveRatio="true" />
+                        <Button fx:id="dashboardButton" layoutX="27.0" layoutY="332.0" minHeight="18.0" mnemonicParsing="false" onAction="#changeSceneHandler" prefHeight="18.0" prefWidth="107.0" text="Button" />
+                        <Button fx:id="manageTrucksButton" layoutX="27.0" layoutY="385.0" minHeight="18.0" mnemonicParsing="false" onAction="#changeSceneHandler" prefHeight="18.0" prefWidth="135.0" text="Button" />
+                        <Button fx:id="manageAccountsButton" layoutX="27.0" layoutY="437.0" minHeight="18.0" mnemonicParsing="false" onAction="#changeSceneHandler" prefHeight="18.0" prefWidth="150.0" text="Button" />
+                        <Button fx:id="notificationsButton" layoutX="27.0" layoutY="539.0" minHeight="18.0" mnemonicParsing="false" onAction="#changeSceneHandler" prefHeight="18.0" prefWidth="116.0" text="Button" />
+                    </children>
+                </Pane>
+                <Label fx:id="seeLocationsTitleLabel" layoutX="271.0" layoutY="36.0" text="SEE LOCATIONS" />
+                <ScrollPane fx:id="scrollPane" fitToWidth="true" hbarPolicy="NEVER" layoutX="372.0" layoutY="86.0" prefHeight="524.0" prefWidth="700.0">
+                    <content>
+                        <VBox fx:id="vbox" prefHeight="524.0" prefWidth="680.0" spacing="5.0">
+                            <children>
+                                <HBox minHeight="60.0" prefHeight="60.0" prefWidth="580.0">
+                                    <children>
+                                        <Label fx:id="palletIDLabel" alignment="BOTTOM_LEFT" text="PALLET ID" textAlignment="CENTER">
+                                            <HBox.margin>
+                                                <Insets left="60.0" top="40.0" />
+                                            </HBox.margin>
+                                        </Label>
+                                        <Label fx:id="productLabel" text="PRODUCT">
+                                            <HBox.margin>
+                                                <Insets left="80.0" top="40.0" />
+                                            </HBox.margin>
+                                        </Label>
+                                        <Label fx:id="locationLabel" text="LOCATION">
+                                            <HBox.margin>
+                                                <Insets left="80.0" top="40.0" />
+                                            </HBox.margin>
+                                        </Label>
+                                        <Label fx:id="typeLabel" text="TYPE">
+                                            <HBox.margin>
+                                                <Insets left="80.0" top="40.0" />
+                                            </HBox.margin>
+                                        </Label>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                    </content>
+                </ScrollPane>
+                <Button fx:id="adminEditProfileButton" layoutX="63.5" layoutY="129.0" mnemonicParsing="false" onAction="#changeSceneHandler" prefHeight="69.0" prefWidth="69.0">
+                    <graphic>
+                        <Label fx:id="editProfileLabel" text="EDIT PROFILE" />
+                    </graphic>
+                </Button>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

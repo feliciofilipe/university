@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox fx:id="outerPane3" prefHeight="500.0" prefWidth="925.0" stylesheets="@../css/receivingStationTables.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_controller.ReceivingStationTablesController">
+    <children>
+        <HBox fx:id="tablePane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="580.0">
+            <children>
+                <ScrollPane fx:id="scrollPane1" fitToWidth="true" hbarPolicy="NEVER" minHeight="500.0" prefHeight="500.0" prefWidth="580.0">
+                    <content>
+                        <VBox fx:id="vbox1" fillWidth="false" prefHeight="500.0" prefWidth="560.0" spacing="5.0">
+                            <children>
+                                <HBox prefHeight="23.0" prefWidth="580.0">
+                                    <children>
+                                        <Label prefHeight="19.0" prefWidth="245.0" text="PRODUCT" textAlignment="CENTER">
+                                            <HBox.margin>
+                                                <Insets left="33.5" />
+                                            </HBox.margin>
+                                        </Label>
+                                        <Label prefHeight="19.0" prefWidth="172.0" text="QUANTITY" />
+                                        <Label text="TYPE" />
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets top="25.0" />
+                                    </VBox.margin>
+                                </HBox>
+                            </children>
+                        </VBox>
+                    </content>
+                </ScrollPane>
+            </children>
+        </HBox>
+        <VBox prefHeight="500.0" prefWidth="320.0">
+            <children>
+                <VBox fx:id="vbox2" fillWidth="false" maxHeight="260.0" prefHeight="260.0" prefWidth="320.0">
+                    <children>
+                        <Label text="QR CODE">
+                            <VBox.margin>
+                                <Insets left="25.0" top="10.0" />
+                            </VBox.margin>
+                        </Label>
+                        <HBox fx:id="tableRow" alignment="CENTER" prefHeight="200.0" prefWidth="320.0">
+                            <children>
+                                <ImageView fx:id="qrCodeImage" fitHeight="180.0" fitWidth="180.0" pickOnBounds="true" preserveRatio="true" />
+                            </children>
+                            <VBox.margin>
+                                <Insets top="3.0" />
+                            </VBox.margin>
+                        </HBox>
+                    </children>
+                </VBox>
+                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                    <children>
+                        <Button fx:id="waitButton" mnemonicParsing="false" prefHeight="45.0" prefWidth="120.0" text="WAIT">
+                            <HBox.margin>
+                                <Insets right="20.0" />
+                            </HBox.margin>
+                        </Button>
+                        <Button fx:id="readQRButton" mnemonicParsing="false" prefHeight="45.0" prefWidth="120.0" text="READ QR">
+                            <HBox.margin>
+                                <Insets left="20.0" />
+                            </HBox.margin>
+                        </Button>
+                    </children>
+                </HBox>
+            </children>
+            <HBox.margin>
+                <Insets left="20.0" />
+            </HBox.margin>
+        </VBox>
+    </children>
+</HBox>

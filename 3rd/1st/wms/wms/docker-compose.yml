@@ -1,0 +1,19 @@
+version: "3"
+services:
+  db:
+    image: mongo:4.2.10-bionic
+    volumes:
+      - /data/mongo:/data/db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: "${DELEGATE_DATA_MONGODB_USERNAME}"
+      MONGO_INITDB_ROOT_PASSWORD: "${DELEGATE_DATA_MONGODB_PASSWORD}"
+    ports:
+      - "27017-27019:27017-27019"
+  logs:
+    image: mysql:8.0.18
+    volumes:
+      - /data/mysql:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: "${DELEGATE_DATA_MYSQL_PASSWORD}"
+    ports:
+      - "3306:3306"

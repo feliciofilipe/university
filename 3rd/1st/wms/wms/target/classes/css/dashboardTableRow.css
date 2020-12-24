@@ -1,0 +1,24 @@
+#tableRow{
+    -fx-background-color: #1a2338;
+}
+
+#companyLabel{
+    -fx-font-size: 6.5pt;
+    -fx-text-fill: gray;
+}
+
+#productLabel, #companyLabel{
+    -fx-padding: 0  0  0 10;
+}
+
+#productLabel, #quatityLabel, #typeLabel{
+    -fx-font-family: "Montserrat";
+    -fx-font-weight: bold;
+    -fx-font-size: 9.5pt;
+    -fx-text-fill: white;
+}
+
+#typePane{
+    -fx-border-radius: 5 5 5 5;
+    -fx-background-radius: 5 5 5 5;
+}

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox fx:id="tablePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="600.0" stylesheets="@../css/manageTrucksTables.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_controller.ManageTrucksTablesController">
+    <children>
+        <ScrollPane fx:id="scrollPane" fitToWidth="true" hbarPolicy="NEVER" prefHeight="450.0" prefWidth="600.0">
+            <content>
+                <VBox fx:id="vbox" fillWidth="false" prefHeight="450.0" prefWidth="598.0" spacing="5.0">
+                    <children>
+                        <HBox prefHeight="111.0" prefWidth="580.0">
+                            <children>
+                                <Pane prefHeight="130.0" prefWidth="251.0">
+                                    <children>
+                                        <Circle fill="#6777b8" layoutX="69.0" layoutY="65.0" radius="36.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                                        <ImageView fx:id="truckDriverImage" fitHeight="70.0" fitWidth="70.0" layoutX="34.0" layoutY="30.5" pickOnBounds="true" preserveRatio="true" />
+                                        <Label fx:id="nameLabel" layoutX="113.0" layoutY="44.0" text="label" />
+                                        <Label fx:id="emailLabel" layoutX="113.0" layoutY="65.0" text="label" />
+                                        <Label fx:id="accountTypeLabel" layoutX="113.0" layoutY="75.0" text="Truck Driver" />
+                                    </children>
+                                </Pane>
+                            </children>
+                        </HBox>
+                        <HBox prefHeight="23.0" prefWidth="580.0">
+                            <children>
+                                <Label prefHeight="17.0" prefWidth="285.0" text="PRODUCT" textAlignment="CENTER">
+                                    <HBox.margin>
+                                        <Insets left="33.5" />
+                                    </HBox.margin>
+                                </Label>
+                                <Label prefHeight="19.0" prefWidth="172.0" text="QUANTITY" />
+                                <Label text="TYPE" />
+                            </children>
+                        </HBox>
+                    </children>
+                </VBox>
+            </content>
+        </ScrollPane>
+    </children>
+</HBox>

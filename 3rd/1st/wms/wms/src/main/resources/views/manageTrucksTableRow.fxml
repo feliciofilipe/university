@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox fx:id="tableRow" prefHeight="54.0" prefWidth="580.0" stylesheets="@../css/manageTrucksTableRow.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_controller.ManageTrucksTableRowController">
+    <children>
+        <VBox alignment="CENTER_LEFT" prefHeight="54.0" prefWidth="258.0">
+            <children>
+                <Label fx:id="productLabel" alignment="CENTER" contentDisplay="CENTER" text="IPHONE" textAlignment="CENTER">
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                </Label>
+                <Label fx:id="companyLabel" text="Label">
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                </Label>
+            </children>
+            <HBox.margin>
+                <Insets left="33.5" top="7.0" />
+            </HBox.margin>
+        </VBox>
+        <HBox fx:id="quantityHBox" alignment="CENTER" prefHeight="54.0" prefWidth="128.0">
+            <children>
+                <Label fx:id="quantityLabel" alignment="CENTER" contentDisplay="CENTER" text="50" textAlignment="CENTER" />
+            </children>
+        </HBox>
+        <Pane fx:id="outerTypePane" prefHeight="54.0" prefWidth="161.0">
+            <children>
+                <Pane fx:id="typePane" layoutX="38.0" layoutY="16.0" prefHeight="22.0" prefWidth="100.0">
+                    <children>
+                        <Label fx:id="typeLabel" alignment="CENTER" layoutY="2.0" prefHeight="19.0" prefWidth="100.0" text="Perishable" textAlignment="CENTER" />
+                    </children>
+                </Pane>
+            </children>
+        </Pane>
+    </children>
+</HBox>

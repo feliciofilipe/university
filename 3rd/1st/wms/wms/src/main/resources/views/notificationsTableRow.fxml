@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox fx:id="tableRow" minHeight="54.0" prefHeight="54.0" prefWidth="680.0" stylesheets="@../css/notificationsTableRow.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_controller.NotificationsTableRowController">
+    <children>
+        <HBox alignment="CENTER_LEFT" prefHeight="54.0" prefWidth="561.0">
+            <children>
+                <Label fx:id="notificationLabel" text="ROBOT &quot;ROB0023&quot; PICKED UP NORMAL PALLET &quot;PAL0012&quot; FROM RECEIVING STATION">
+                    <HBox.margin>
+                        <Insets left="50.0" />
+                    </HBox.margin>
+                </Label>
+            </children>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="70.0" prefWidth="80.0" spacing="10.0">
+            <children>
+                <Button fx:id="deleteRowButton" minHeight="20.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="20.0">
+                    <HBox.margin>
+                        <Insets left="15.0" />
+                    </HBox.margin></Button>
+            </children>
+        </HBox>
+    </children>
+</HBox>

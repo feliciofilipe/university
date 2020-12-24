@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox fx:id="outerPane" alignment="CENTER_LEFT" prefHeight="55.0" prefWidth="510.0" stylesheets="@../css/shippingStationTableRow.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_controller.ShippingStationTableRowController">
+    <children>
+        <Label fx:id="orderLabel" prefHeight="17.0" prefWidth="170.0" text="ORD0001">
+            <HBox.margin>
+                <Insets left="33.5" />
+            </HBox.margin>
+        </Label>
+        <RadioButton fx:id="selectButton" mnemonicParsing="false">
+            <HBox.margin>
+                <Insets left="240.0" />
+            </HBox.margin>
+        </RadioButton>
+    </children>
+</HBox>

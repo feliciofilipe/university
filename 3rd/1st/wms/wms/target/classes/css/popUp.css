@@ -1,0 +1,73 @@
+.root { -fx-background-color: transparent; }
+
+
+.button{
+    -fx-font-family: "Montserrat";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.text-field{
+    -fx-font-family: "Montserrat";
+    -fx-font-weight: bold;
+    -fx-text-fill: gray;
+}
+
+.label{
+    -fx-font-family: "Montserrat";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+#outerPane{
+    -fx-background-color: #141b2d;
+    -fx-border-radius: 20 20 20 20;
+    -fx-background-radius: 10 10 10 10;
+    -fx-effect: dropshadow(three-pass-box , black , 20 , 0.0 , 0 , 0);
+}
+
+#errorLabel{
+    -fx-font-size: 11pt;
+}
+
+#messageLabel{
+    -fx-font-size: 8pt;
+}
+
+#whiteBar, #exclamationPane1, #exclamationPane2, #exclamationPane3,
+#exclamationPane4, #exclamationPane5, #exclamationPane6 {
+    -fx-background-color: white;
+}
+
+#okButton, #yesButton, #noButton{
+    -fx-border-radius: 5 5 5 5;
+    -fx-background-radius: 5 5 5 5;
+}
+
+#okButton{
+    -fx-background-color: #6e7ffb;
+}
+
+#yesButton{
+    -fx-background-color: #4ccdab;
+}
+
+#noButton{
+    -fx-background-color: #da504a;
+}
+
+#okButton:hover{
+    -fx-background-color: linear-gradient(#6d82c6,#6e7ffb);
+    -fx-effect: dropshadow(three-pass-box , #000000 , 0 , 0.0 , 0 , 0);
+}
+
+#yesButton:hover{
+    -fx-background-color: linear-gradient(#5fe0bb,#4ccdab);
+    -fx-effect: dropshadow(three-pass-box , #000000 , 0 , 0.0 , 0 , 0);
+}
+
+#noButton:hover{
+    -fx-background-color: linear-gradient(#ea5e5e,#da504a);
+    -fx-effect: dropshadow(three-pass-box , #000000 , 0 , 0.0 , 0 , 0);
+}
+

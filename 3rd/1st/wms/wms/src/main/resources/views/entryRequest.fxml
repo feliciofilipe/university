@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1248.0" stylesheets="@../css/entryRequest.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui_controller.EntryRequestController">
+    <children>
+        <Pane fx:id="outerPane1" prefHeight="650.0" prefWidth="1248.0">
+            <children>
+                <Pane fx:id="sideBarPane" prefHeight="650.0" prefWidth="196.0">
+                    <children>
+                        <ImageView fitHeight="54.0" fitWidth="50.0" layoutX="19.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/icons/logo.png" />
+                            </image>
+                        </ImageView>
+                        <Label fx:id="warehouseLogoLabel" layoutX="79.0" layoutY="36.0" text="WAREHOUSE" />
+                        <Label fx:id="managementLogoLabel" layoutX="79.0" layoutY="47.0" text="MANAGEMENT" />
+                        <Label fx:id="systemLogoLabel" layoutX="79.0" layoutY="59.0" text="SYSTEM" />
+                        <Label fx:id="typeOfAccountLabel" alignment="CENTER" layoutX="14.0" layoutY="223.0" maxHeight="50.0" maxWidth="203.0" prefHeight="21.0" prefWidth="168.0" text="TRUCK DRIVER" />
+                        <Label fx:id="userNameLabel" alignment="CENTER" layoutX="14.0" layoutY="201.0" maxHeight="50.0" maxWidth="213.0" prefHeight="26.0" prefWidth="168.0" />
+                        <Label fx:id="mainLabel" layoutX="30.0" layoutY="284.0" prefHeight="16.0" prefWidth="35.0" text="MAIN" />
+                        <Label fx:id="entryRequestLabel" layoutX="53.0" layoutY="335.0" text="ENTRY REQUEST" />
+                        <Button fx:id="loginButton" layoutX="53.0" layoutY="590.0" minHeight="23.0" mnemonicParsing="false" onAction="#changeSceneHandler" prefHeight="20.0" prefWidth="90.0" text="LOGOUT" />
+                        <ImageView fitHeight="16.0" fitWidth="14.0" layoutX="30.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@../images/icons/entrySelected.png" />
+                            </image>
+                        </ImageView>
+                        <Circle fill="#6777b8" layoutX="98.0" layoutY="164.0" radius="36.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" />
+                        <ImageView fx:id="image" fitHeight="69.0" fitWidth="69.0" layoutX="63.5" layoutY="129.5" pickOnBounds="true" preserveRatio="true" />
+                    </children>
+                </Pane>
+                <Label fx:id="entryRequestTitleLabel" layoutX="271.0" layoutY="36.0" stylesheets="@../css/notifications.css" text="ENTRY REQUEST" />
+                <Button fx:id="truckDriverEditProfileButton" layoutX="63.5" layoutY="129.0" mnemonicParsing="false" onAction="#changeSceneHandler" prefHeight="69.0" prefWidth="69.0">
+                    <graphic>
+                        <Label fx:id="editProfileLabel" text="EDIT PROFILE" />
+                    </graphic>
+                </Button>
+                <HBox fx:id="outerPane3" layoutX="265.0" layoutY="110.0" prefHeight="520.0" prefWidth="925.0">
+                    <children>
+                        <VBox prefHeight="520.0" prefWidth="580.0">
+                            <children>
+                                <ScrollPane fx:id="scrollPane1" fitToWidth="true" hbarPolicy="NEVER" minHeight="450.0" prefHeight="450.0" prefWidth="580.0">
+                                    <content>
+                                        <VBox fx:id="vbox1" fillWidth="false" prefHeight="450.0" prefWidth="560.0" spacing="5.0">
+                                            <children>
+                                                <HBox fx:id="firstNode" prefHeight="23.0" prefWidth="580.0">
+                                                    <children>
+                                                        <Label prefHeight="19.0" prefWidth="226.0" text="PRODUCT" textAlignment="CENTER">
+                                                            <HBox.margin>
+                                                                <Insets left="33.5" />
+                                                            </HBox.margin>
+                                                        </Label>
+                                                        <Label prefHeight="19.0" prefWidth="161.0" text="QUANTITY" />
+                                                        <Label text="TYPE" />
+                                                    </children>
+                                                    <VBox.margin>
+                                                        <Insets top="25.0" />
+                                                    </VBox.margin>
+                                                </HBox>
+                                            </children>
+                                        </VBox>
+                                    </content>
+                                </ScrollPane>
+                                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                                    <children>
+                                        <Button fx:id="deleteAllButton" mnemonicParsing="false" onAction="#deleteAllButtonHandler" prefHeight="45.0" prefWidth="120.0" text="DELETE ALL">
+                                            <HBox.margin>
+                                                <Insets right="80.0" />
+                                            </HBox.margin>
+                                        </Button>
+                                        <Button fx:id="saveButton" mnemonicParsing="false" onAction="#saveButtonHandler" prefHeight="45.0" prefWidth="120.0" text="SAVE">
+                                            <HBox.margin>
+                                                <Insets left="80.0" />
+                                            </HBox.margin>
+                                        </Button>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                        <VBox prefHeight="520.0" prefWidth="320.0">
+                            <children>
+                                <VBox fx:id="vbox2" fillWidth="false" maxHeight="260.0" prefHeight="260.0" prefWidth="320.0" spacing="5.0">
+                                    <children>
+                                        <Label fx:id="addPalletLabel" text="ADD PALLET">
+                                            <VBox.margin>
+                                                <Insets left="25.0" top="10.0" />
+                                            </VBox.margin>
+                                        </Label>
+                                        <HBox fx:id="tableRow1" alignment="CENTER_LEFT" prefHeight="47.0" prefWidth="320.0">
+                                            <VBox.margin>
+                                                <Insets top="3.0" />
+                                            </VBox.margin>
+                                            <children>
+                                                <Label fx:id="productLabel" maxWidth="110.0" minWidth="110.0" prefWidth="110.0" text="PRODUCT NAME">
+                                                    <HBox.margin>
+                                                        <Insets left="25.0" />
+                                                    </HBox.margin>
+                                                </Label>
+                                                <TextField fx:id="productField" prefWidth="140.0">
+                                                    <HBox.margin>
+                                                        <Insets left="15.0" />
+                                                    </HBox.margin>
+                                                </TextField>
+                                            </children>
+                                        </HBox>
+                                        <HBox fx:id="tableRow2" alignment="CENTER_LEFT" prefHeight="47.0" prefWidth="320.0">
+                                            <children>
+                                                <Label fx:id="companyLabel" maxHeight="14.0" maxWidth="110.0" minWidth="110.0" prefWidth="110.0" text="COMPANY NAME">
+                                                    <HBox.margin>
+                                                        <Insets left="25.0" />
+                                                    </HBox.margin>
+                                                </Label>
+                                                <TextField fx:id="companyField" prefWidth="140.0">
+                                                    <HBox.margin>
+                                                        <Insets left="15.0" />
+                                                    </HBox.margin>
+                                                </TextField>
+                                            </children>
+                                        </HBox>
+                                        <HBox fx:id="tableRow3" alignment="CENTER_LEFT" prefHeight="47.0" prefWidth="320.0">
+                                            <children>
+                                                <Label fx:id="quantityLabel" maxHeight="14.0" maxWidth="110.0" minWidth="110.0" prefWidth="110.0" text="QUANTITY">
+                                                    <HBox.margin>
+                                                        <Insets left="25.0" />
+                                                    </HBox.margin>
+                                                </Label>
+                                                <TextField fx:id="quantityField" prefWidth="140.0">
+                                                    <HBox.margin>
+                                                        <Insets left="15.0" />
+                                                    </HBox.margin>
+                                                </TextField>
+                                            </children>
+                                        </HBox>
+                                        <HBox fx:id="tableRow4" alignment="CENTER" prefHeight="47.0" prefWidth="320.0">
+                                            <children>
+                                                <ToggleButton fx:id="normalButton" maxHeight="25.0" minHeight="25.0" minWidth="100.0" mnemonicParsing="false" text="NORMAL">
+                                                    <HBox.margin>
+                                                        <Insets right="20.0" />
+                                                    </HBox.margin>
+                                                    <toggleGroup>
+                                                        <ToggleGroup fx:id="typeGroup" />
+                                                    </toggleGroup>
+                                                </ToggleButton>
+                                                <ToggleButton fx:id="perishableButton" maxHeight="25.0" minHeight="25.0" minWidth="100.0" mnemonicParsing="false" text="PERISHABLE" toggleGroup="$typeGroup">
+                                                    <HBox.margin>
+                                                        <Insets left="20.0" />
+                                                    </HBox.margin>
+                                                </ToggleButton>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                    <VBox.margin>
+                                        <Insets top="205.0" />
+                                    </VBox.margin>
+                                </VBox>
+                                <HBox alignment="CENTER" maxHeight="70.0" minHeight="70.0" prefHeight="100.0" prefWidth="200.0">
+                                    <children>
+                                        <Button fx:id="addButton" mnemonicParsing="false" onAction="#addPalletButtonHandler" prefHeight="45.0" prefWidth="120.0" text="ADD">
+                                            <HBox.margin>
+                                                <Insets left="20.0" />
+                                            </HBox.margin>
+                                        </Button>
+                                    </children>
+                                </HBox>
+                            </children>
+                            <HBox.margin>
+                                <Insets left="20.0" />
+                            </HBox.margin>
+                        </VBox>
+                    </children>
+                </HBox>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

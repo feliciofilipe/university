@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+. scripts/helpers.sh
+
+echo_info "setup" "Setting up the env..."
+
+if [ ! -f .env ]; then
+  cp .env.sample .env
+  echo_done "env file created, you might want to open .env and set the correct values..."
+  echo
+else
+  echo_warning ".env file already exists, skipping..."
+  echo
+fi

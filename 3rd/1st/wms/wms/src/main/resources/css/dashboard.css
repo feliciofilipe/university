@@ -1,0 +1,169 @@
+.button{
+    -fx-font-family: "Montserrat";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.text-field{
+    -fx-font-family: "Montserrat";
+    -fx-font-weight: bold;
+    -fx-text-fill: gray;
+}
+
+.label{
+    -fx-font-family: "Montserrat";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+
+#outerPane, #outerPane1{
+    -fx-background-color: #141b2d;
+}
+
+#dashboardTitleLabel{
+    -fx-font-size: 27pt;
+    -fx-font-weight: bold;
+}
+
+#welcomeLabel{
+    -fx-font-size: 7pt;
+    -fx-text-fill: #4a4d51;
+}
+
+#sideBarPane{
+    -fx-background-color: #1f2940;
+}
+
+#warehouseLogoLabel, #managementLogoLabel, #systemLogoLabel{
+    -fx-font-size: 8pt;
+}
+
+#adminEditProfileButton{
+    -fx-opacity: 0;
+}
+
+#editProfileLabel{
+    -fx-font-size: 5pt;
+}
+
+
+#adminEditProfileButton:hover{
+    -fx-border-radius: 100 100 100 100;
+    -fx-background-radius: 100 100 100 100;
+    -fx-background-color: #000000;
+    -fx-opacity: 50%;
+}
+
+#userNameLabel{
+    -fx-text-alignment: CENTER;
+    -fx-font-size: 12pt;
+}
+
+#typeOfAccountLabel{
+    -fx-text-alignment: CENTER;
+    -fx-font-size: 8pt;
+}
+
+#mainLabel{
+    -fx-text-fill: #4a4d51;
+    -fx-font-size: 6pt;
+}
+
+#dashboardLabel{
+    -fx-text-fill: #6777b8;
+    -fx-font-size: 8pt;
+}
+
+#manageTrucksLabel,#manageAccountsLabel,#seeLocationsLabel,#notificationsLabel{
+    -fx-font-size: 8pt;
+}
+
+#manageTrucksButton, #manageAccountsButton, #seeLocationsButton, #notificationsButton{
+    -fx-opacity: 0;
+}
+
+#loginButton{
+    -fx-background-color: #6777b8;
+    -fx-font-size: 9pt;
+}
+
+#loginButton:hover{
+    -fx-background-color: linear-gradient(#6d82c6,#6777b8);
+    -fx-effect: dropshadow(three-pass-box , #000000 , 0 , 0.0 , 0 , 0);
+}
+
+#robotPane,#floorWorkerPane,#truckDriverPane,#adminPane,#weeklyTraficPane,#warehousePane,#lastTransictionsPane{
+    -fx-background-color: #1f2940;
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+}
+
+#robotLabel, #floorWorkerLabel, #truckDriverLabel, #adminLabel{
+    -fx-text-fill: #b8b7b7;
+    -fx-font-size: 11pt;
+}
+
+#robotCountLabel, #floorWorkerCountLabel, #truckDriverCountLabel, #adminCountLabel, #totalCapacityLabel{
+    -fx-font-size: 17pt;
+}
+
+#weeklyShipmentsLabel, #warehouseLabel, #quatityLabel, #typeLabel, #capacityLabel{
+    -fx-text-fill: #b8b7b7;
+    -fx-font-size: 9.5pt;
+}
+
+/* List of last product */
+#productColumn, #quantityColumn, #typeColumn{
+    -fx-font-family: "Montserrat";
+    -fx-font-size: 10pt;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#quantityColumn, #typeColumn{
+    -fx-alignment: center;
+}
+
+/* Piechart */
+.chart-pie {
+    -fx-background-insets: 0;
+    -fx-border-width: 0;
+}
+
+.default-color0.chart-pie { -fx-pie-color: #6e7ffb; }
+.default-color1.chart-pie { -fx-pie-color: #82c3fa; }
+
+#percentageLabel{
+    -fx-alignment: center;
+    -fx-text-fill: #b8b7b7;
+    -fx-font-size: 13pt;
+}
+
+/* Barchart */
+
+.axis {
+    -fx-tick-label-font-family: "Montserrat";
+    -fx-tick-label-font-weight: bold;
+    -fx-tick-label-fill: #b8b7b7;
+}
+
+.chart-vertical-grid-lines, .chart-horizontal-grid-lines {
+    -fx-stroke: #b8b7b7;
+}
+
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+.default-color0.chart-bar,
+.default-color1.chart-bar,
+.default-color2.chart-bar,
+.default-color3.chart-bar,
+.default-color4.chart-bar,
+.default-color5.chart-bar,
+.default-color6.chart-bar,
+.default-color7.chart-bar
+{ -fx-bar-fill: #6e7ffb; }
+
+
+

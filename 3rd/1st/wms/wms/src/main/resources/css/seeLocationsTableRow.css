@@ -1,0 +1,36 @@
+.button{
+    -fx-font-family: "Montserrat";
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.text-field{
+    -fx-font-family: "Montserrat";
+    -fx-font-weight: bold;
+    -fx-text-fill: gray;
+}
+
+.label{
+    -fx-font-family: "Montserrat";
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+#tableRow{
+    -fx-background-color: #1a2338;
+}
+
+#companyLabel{
+    -fx-font-size: 6.5pt;
+    -fx-text-fill: gray;
+}
+
+#typePane{
+    -fx-border-radius: 5 5 5 5;
+    -fx-background-radius: 5 5 5 5;
+}
+
+#palletIDLabel, #productLabel, #locationLabel, #typeLabel, #quantityLabel{
+    -fx-font-size: 8pt;
+}
