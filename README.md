@@ -48,7 +48,7 @@ This repository contains all the projects I developed during my university degre
 
 - ##### 1st semester
    
-  - (tbd) [Software Development Systems](/3rd/1st/DSS):
+  - (tbd) [Software Development Systems](/3rd/1st/DSS/wms):
     This project is a Warehouse Managment System in Java capable of managing an robot automated warehouse with multiple different users at the same time, using an     online database with a beautiful GUI in JavaFX. Additionally we built a Web Page capable of requesting Orders to Warehouse coded in JavaScript. Like in previous Java projects we made a terminal shell (now its used more as a development tool to quickly test queries and debug) that is generated automatically from the model source code using abstraction and reflextions.  
 
 - ##### 2nd semester :finland:
