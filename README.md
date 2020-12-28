@@ -63,7 +63,7 @@ This repository contains all the projects I developed during my university degre
 - [João Correia][correia]
 - [Luís Araújo][luis]
 - [Paulo Barros][paulo]
-- [Ruben Adao][ruben]
+- [Ruben Adão][ruben]
 
 [filipe]: https://github.com/feliciofilipe
 [alex]: https://github.com/PietroPan
