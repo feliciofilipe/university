@@ -44,6 +44,7 @@ import javafx.scene.text.Font;
 import javafx.stage.Stage;
 
 import model.*;
+import view.Output;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
@@ -103,6 +104,7 @@ public final class App extends Application {
                         });
         t.start();
         try {
+            Output.clear();
             Shell.main(null);
         } catch (IOException | NoSuchAlgorithmException | InvocationTargetException | NoSuchMethodException | InstantiationException | IllegalAccessException | ClassNotFoundException | AuthenticationException e) {
             e.printStackTrace();
