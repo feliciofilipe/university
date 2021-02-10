@@ -54,6 +54,8 @@ This repository contains all the projects I developed during my university degre
 
 - ##### 2nd semester :finland:
 
+  - (17.3/20) [Machine Learning](/3rd/2nd/ML):
+    A set of Machine Learning mini-projects.  
 
 ## :handshake: Contributors
 
