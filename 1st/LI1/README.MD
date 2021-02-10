@@ -9,6 +9,7 @@ Haskell programming language.
 [hof]: https://haslab.github.io/Teaching/LI1/
 [hof_game]: https://haslab.github.io/Teaching/LI1/1819_web/2018li1g159/web/2018li1g159/Tarefa5_2018li1g159.jsexe/run.html
 
+## :camera: Screenshots
 
 ![alt text](https://github.com/feliciofilipe/university/raw/master/1st/LI1/screenshots/0.png "Screenshot")
 ![alt text](https://github.com/feliciofilipe/university/raw/master/1st/LI1/screenshots/1.png "Screenshot")
