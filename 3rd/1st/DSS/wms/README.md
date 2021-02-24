@@ -32,7 +32,7 @@ This project is a Warehouse Managment System in Java, with a beautiful GUI in Ja
 ![alt text](https://github.com/feliciofilipe/university/raw/master/3rd/1st/DSS/wms/screenshots/13.png "Screenshot")
 ![alt text](https://github.com/feliciofilipe/university/raw/master/3rd/1st/DSS/wms/screenshots/14.png "Screenshot")
 ![alt text](https://github.com/feliciofilipe/university/raw/master/3rd/1st/DSS/wms/screenshots/15.png "Screenshot")
-![alt text](https://github.com/feliciofilipe/university/raw/master/3rd/1st/DSS/wms/screenshots/16.png "Screenshot")
+![alt text](https://github.com/feliciofilipe/university/raw/master/3rd/1st/DSS/wms/screenshots/16.PNG "Screenshot")
 ![alt text](https://github.com/feliciofilipe/university/raw/master/3rd/1st/DSS/wms/screenshots/17.png "Screenshot")
 ![alt text](https://github.com/feliciofilipe/university/raw/master/3rd/1st/DSS/wms/screenshots/18.png "Screenshot")
 
