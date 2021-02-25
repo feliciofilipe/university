@@ -37,7 +37,7 @@ This repository contains all the projects I developed during my university degre
     - #### :star: Best Group Project Grade in this Class (2019/2020).
   - (18/20) [Object Oriented Programming](/2nd/POO):
     This project is a Command Line Application for a delivery system built in the JAVA
-    programming language using abstraction and reflections to automatically generate the app from the source code. 
+    programming language using abstraction and reflections to automatically generate the app user interface (View) from the Model. 
     - #### :star: Best Group Project Grade in this Class (2019/2020).
   - (19.4/20) [Program Calculation](/2nd/CP):
     This project follows program design by calculation methods with literate
