@@ -87,6 +87,7 @@ mention the most decisive ones by alphabetical order.
 - [Catarina Machado][catarina]
 - [Eduardo Jorge][eduardo]
 - [Francisco Lira][lira]
+- [João Vilaça][vilaca]
 - [Miguel Brandão][brandao]
 - [Nelson Estevão][nelson]
 
@@ -94,6 +95,9 @@ mention the most decisive ones by alphabetical order.
 [eduardo]: https://github.com/herulume
 [lira]: https://github.com/FranciscoLira
 [brandao]: https://github.com/miguelbrandao
+[vilaca]: https://github.com/machadovilaca
+[nelson]: https://github.com/nelsonmestevao
+
 
 ## :pray: Special Thanks
 
@@ -102,8 +106,6 @@ huge role model, setting the example of great work ethic and organization (I hav
 and by far the person from whom I have learned the most within the software engineering students community.
 
 - [Nelson Estevão][nelson]
-
-[nelson]: https://github.com/nelsonmestevao
 
 <div align="center">
   <sub>2018 - PRESENT</sub>
