@@ -58,6 +58,12 @@ This repository contains all the projects I developed during my university degre
     A set of Machine Learning mini-projects.
      - #### :finland: Exchange Course (2020/2021).
 
+  - (tbf) [Advanced Course on Databases](/3rd/2nd/ADB):
+     - #### :finland: Exchange Course (2020/2021).
+
+  - (tbf) [Autonomic Software and Systems](/3rd/2nd/ASS):
+     - #### :finland: Exchange Course (2020/2021). 
+
 ## :handshake: Contributors
 
 - [Filipe Felício][filipe]
