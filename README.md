@@ -54,10 +54,6 @@ This repository contains all the projects I developed during my university degre
 
 - ##### 2nd semester :finland:
 
-  - (17.3/20) [Machine Learning](/3rd/2nd/ML):
-    A set of Machine Learning mini-projects.
-     - #### :finland: Exchange Course (2020/2021).
-
   - (tbf) [Advanced Course on Databases](/3rd/2nd/ADB):
      - #### :finland: Exchange Course (2020/2021).
 
