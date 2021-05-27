@@ -11,7 +11,7 @@
 
 # WMS - Warehouse Management System
 
-This project is a Warehouse Managment System in Java, with a beautiful GUI in JavaFX, capable of managing an robot automated warehouse with multiple different users at the same time - using an online database. Additionally we built a Web Page capable of requesting Orders to the warehouse coded in JavaScript. Like in previous Java projects we made a terminal shell (now its used more as a development tool to quickly test queries and debug) that is generated automatically from the model source code using abstraction and reflections.
+This project is a Warehouse Managment System in Java, with a beautiful GUI in JavaFX, capable of managing an robot automated warehouse with multiple different users at the same time - using an online database. Additionally we built a Web App capable of requesting Orders to the warehouse coded in JavaScript. Like in previous Java projects we made a terminal shell (now its used more as a development tool to quickly test queries and debug) that is generated automatically from the model source code using abstraction and reflections.
 
 #### :star: (18/20) Best Group Project Grade in this Class (2020/2021).
 
