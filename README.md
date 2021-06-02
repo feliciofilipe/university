@@ -60,6 +60,10 @@ This repository contains all the projects I developed during my university degre
 
   - (16/20) [System Architecture of IoT](/3rd/2nd/IoT):
      - #### :finland: Exchange Course (2020/2021). 
+  
+  
+  - (15/20) [Software Testing](/3rd/2nd/ST):
+     - #### :finland: Exchange Course (2020/2021). 
 
 ## :handshake: Contributors
 
