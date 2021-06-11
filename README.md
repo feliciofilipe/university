@@ -57,7 +57,7 @@ This repository contains all the projects I developed during my university degre
   - (tbf) [Advanced Course on Databases](/3rd/2nd/ADB):
      - #### :finland: Exchange Course (2020/2021).
 
-  - (tbf) [Cloud Computing](/3rd/2nd/CC):
+  - (18/20) [Cloud Computing](/3rd/2nd/CC):
      - #### :finland: Exchange Course (2020/2021).
 
   - (16/20) [System Architecture of IoT](/3rd/2nd/IoT):
