@@ -96,6 +96,7 @@ mention the most decisive ones by alphabetical order.
 - [Catarina Machado][catarina]
 - [Eduardo Jorge][eduardo]
 - [Francisco Lira][lira]
+- [Jéssica Lemos][jessica]
 - [João Vilaça][vilaca]
 - [Miguel Brandão][brandao]
 - [Nelson Estevão][nelson]
@@ -106,7 +107,7 @@ mention the most decisive ones by alphabetical order.
 [brandao]: https://github.com/miguelbrandao
 [vilaca]: https://github.com/machadovilaca
 [nelson]: https://github.com/nelsonmestevao
-
+[jessica]: https://github.com/jessicalemos
 
 ## :pray: Special Thanks
 
