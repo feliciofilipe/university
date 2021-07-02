@@ -43,6 +43,8 @@ This repository contains all the projects I developed during my university degre
     This project follows program design by calculation methods with literate
     programming principles using Haskell and `lhs2TeX`.
     - #### :star: Best Group Project Grade in this Class (2019/2020).
+
+- (18/20) [Operanting Systems](/2nd/SO):
     
 ### **3rd year**
 
