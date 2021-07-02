@@ -77,6 +77,7 @@ This repository contains all the projects I developed during my university degre
 - [Henrique Ribeiro][henrique]
 - [João Correia][correia]
 - [Luís Araújo][luis]
+- [Miguel Brandão][brandao]
 - [Paulo Barros][paulo]
 - [Ruben Adão][ruben]
 
@@ -100,7 +101,6 @@ mention the most decisive ones by alphabetical order.
 - [Francisco Lira][lira]
 - [Jéssica Lemos][jessica]
 - [João Vilaça][vilaca]
-- [Miguel Brandão][brandao]
 - [Nelson Estevão][nelson]
 
 [catarina]: https://github.com/catarinamachado
