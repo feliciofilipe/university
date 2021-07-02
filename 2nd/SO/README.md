@@ -1,16 +1,14 @@
 
 ## :busts_in_silhouette: Team
 
-![Filipe Felício][filipe-pic] | ![Miguel Brandão][brandao-pic] | ![Gonçalo Rodrigues][gongas-pic]
+![Filipe Felício][filipe-pic] | ![Miguel Brandão][brandao-pic]
 :---: | :---: | :---: 
-[Filipe Felício][filipe] | [Miguel Brandão][brandao] | [Gonçalo Rodrigues][gongas]
+[Filipe Felício][filipe] | [Miguel Brandão][brandao]
 
 [filipe]: https://github.com/feliciofilipe
 [filipe-pic]: https://github.com/feliciofilipe.png?size=120
 [brandao]: https://github.com/miguelbrandao
 [brandao-pic]: https://github.com/miguelbrandao.png?size=120
-[gongas]: https://github.com/Gongas8823
-[gongas-pic]: https://github.com/Gongas8823.png?size=120
 
 ## :rocket: Getting Started
 
