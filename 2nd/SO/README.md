@@ -2,7 +2,7 @@
 ## :busts_in_silhouette: Team
 
 ![Filipe Felício][filipe-pic] | ![Miguel Brandão][brandao-pic]
-:---: | :---: | :---: 
+:---: | :---:
 [Filipe Felício][filipe] | [Miguel Brandão][brandao]
 
 [filipe]: https://github.com/feliciofilipe
