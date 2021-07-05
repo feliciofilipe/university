@@ -44,7 +44,7 @@ This repository contains all the projects I developed during my university degre
     programming principles using Haskell and `lhs2TeX`.
     - #### :star: Best Group Project Grade in this Class (2019/2020).
 
-  - (18/20) [Operanting Systems](/2nd/SO): A client/server application to process and apply filters to audio files with limited resources managment and file configuration.
+  - (18/20) [Operating Systems](/2nd/SO): A client/server application to process and apply filters to audio files with limited resources managment and file configuration.
     
 ### **3rd year**
 
