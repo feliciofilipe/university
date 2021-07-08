@@ -56,7 +56,7 @@ This repository contains all the projects I developed during my university degre
 
 - ##### 2nd semester
 
-  - (tbf) [Advanced Course on Databases](/3rd/2nd/ADB):
+  - (16/20) [Advanced Course on Databases](/3rd/2nd/ADB):
     A learning journal covering all the curriculum and given exercises
      - #### :finland: Exchange Course (2020/2021).
 
@@ -69,7 +69,7 @@ This repository contains all the projects I developed during my university degre
      - #### :finland: Exchange Course (2020/2021). 
   
   
-  - (15/20) [Software Testing](/3rd/2nd/ST):
+  - (16/20) [Software Testing](/3rd/2nd/ST):
      A set of lab projects applying the theory on Software Testing and using Eclipse-based Java testing tools, eg. Junit, PITClipse, Robot framework
      - #### :finland: Exchange Course (2020/2021). 
 
