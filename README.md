@@ -64,7 +64,7 @@ This repository contains all the projects I developed during my university degre
     A set of assignments using Cloud Computing services on the AWS platform.
      - #### :finland: Exchange Course (2020/2021).
 
-  - (16/20) [System Architecture of IoT](/3rd/2nd/IoT):
+  - (16/20) [System Architecture of IoT](/3rd/2nd/IOT):
     A set of lab projects using MQTT with Arduino MKR WiFi1010
      - #### :finland: Exchange Course (2020/2021). 
   
