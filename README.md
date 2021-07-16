@@ -93,6 +93,7 @@ This repository contains all the projects I developed during my university degre
 [luis]: https://github.com/LAraujo7
 [paulo]: https://github.com/JohnBarros21
 [ruben]: https://github.com/rubenadao
+[brandao]: https://github.com/miguelbrandao
 
 ## :sparkles: Credits
 
@@ -100,19 +101,12 @@ In addition to all the help from contributors to each of the projects, many
 other people had a positive impact on my academic journey. This list tries to
 mention the most decisive ones by alphabetical order.
 
-- [Catarina Machado][catarina]
-- [Eduardo Jorge][eduardo]
 - [Francisco Lira][lira]
 - [Jéssica Lemos][jessica]
-- [João Vilaça][vilaca]
 - [Matteo Fortunati][matteo]
 - [Nelson Estevão][nelson]
 
-[catarina]: https://github.com/catarinamachado
-[eduardo]: https://github.com/herulume
 [lira]: https://github.com/FranciscoLira
-[brandao]: https://github.com/miguelbrandao
-[vilaca]: https://github.com/machadovilaca
 [nelson]: https://github.com/nelsonmestevao
 [jessica]: https://github.com/jessicalemos
 [matteo]: https://www.linkedin.com/in/matteo-fortunati-47a341187/
