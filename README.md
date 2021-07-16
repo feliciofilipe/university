@@ -105,6 +105,7 @@ mention the most decisive ones by alphabetical order.
 - [Francisco Lira][lira]
 - [Jéssica Lemos][jessica]
 - [João Vilaça][vilaca]
+- [Matteo Fortunati][matteo]
 - [Nelson Estevão][nelson]
 
 [catarina]: https://github.com/catarinamachado
@@ -114,6 +115,7 @@ mention the most decisive ones by alphabetical order.
 [vilaca]: https://github.com/machadovilaca
 [nelson]: https://github.com/nelsonmestevao
 [jessica]: https://github.com/jessicalemos
+[matteo]: https://www.linkedin.com/in/matteo-fortunati-47a341187/
 
 ## :pray: Special Thanks
 
