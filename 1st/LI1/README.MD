@@ -26,7 +26,7 @@ Haskell programming language.
 [filipe]: https://github.com/feliciofilipe
 [filipe-pic]: https://github.com/feliciofilipe.png?size=120
 [luisa]: https://github.com/Analucar
-[luisa-pic]: https://github.com/Analucar
+[luisa-pic]: https://github.com/Analucar.png?size=120
 
 <div align="center">
   <sub>September 2018 - January 2019</sub>
