@@ -6,7 +6,7 @@
  [uminho]: https://www.uminho.pt/EN/
  [abo]: https://www.abo.fi/en/
 
-This repository contains all the projects I developed during my university degree.
+This repository contains projects I developed during my university degree.
 
 ## :package: List of Projects
 
