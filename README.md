@@ -102,13 +102,11 @@ other people had a positive impact on my academic journey. This list tries to
 mention the most decisive ones by alphabetical order.
 
 - [Francisco Lira][lira]
-- [Jéssica Lemos][jessica]
 - [Matteo Fortunati][matteo]
 - [Nelson Estevão][nelson]
 
 [lira]: https://github.com/FranciscoLira
 [nelson]: https://github.com/nelsonmestevao
-[jessica]: https://github.com/jessicalemos
 [matteo]: https://www.linkedin.com/in/matteo-fortunati-47a341187/
 
 ## :pray: Special Thanks
