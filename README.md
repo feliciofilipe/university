@@ -118,5 +118,5 @@ and by far the person from whom I have learned the most within the software engi
 - [Nelson Estevão][nelson]
 
 <div align="center">
-  <sub>2018 - PRESENT</sub>
+  <sub>2018 - 2022</sub>
 </div>
